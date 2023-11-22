@@ -1,0 +1,548 @@
+Uri: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\gh\fancyapps\fancybox@3.5.7\dist\jquery.fancybox.min.css
+Content Type: text/css
+
+Uri: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\gh\fancyapps\fancybox@3.5.7\dist\jquery.fancybox.min.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=latin,cyrillic
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\css-1
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4kaVc.ttf
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\s\opensans\v36\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4kaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v36/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVc.ttf
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\s\opensans\v36\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4kaVc.ttf
+Content Type: font/ttf
+
+Uri: https://www.facebook.com/tr?id=3308747186036502&ev=PageView&noscript=1
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\tr
+Content Type: text/plain
+
+Uri: https://www.kvtservice.com.ua/
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\index.htm
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/css/quiz.css
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\css\quiz.css
+Content Type: text/css
+
+Uri: https://www.kvtservice.com.ua/css/slick.css
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\css\slick.css
+Content Type: text/css
+
+Uri: https://www.kvtservice.com.ua/css/style.css
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\css\style.css
+Content Type: text/css
+
+Uri: https://www.kvtservice.com.ua/fonts/ico-moon/fonts/icomoon.eot
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\ico-moon\fonts\icomoon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://www.kvtservice.com.ua/fonts/ico-moon/fonts/icomoon.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\ico-moon\fonts\icomoon.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/fonts/ico-moon/fonts/icomoon.ttf
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\ico-moon\fonts\icomoon.ttf
+Content Type: application/octet-stream
+
+Uri: https://www.kvtservice.com.ua/fonts/ico-moon/fonts/icomoon.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\ico-moon\fonts\icomoon.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/ico-moon/style.css
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\ico-moon\style.css
+Content Type: text/css
+
+Uri: https://www.kvtservice.com.ua/fonts/Montserrat-Bold.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\Montserrat-Bold.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/Montserrat-ExtraBold.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\Montserrat-ExtraBold.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/Montserrat-Light.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\Montserrat-Light.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/Montserrat-SemiBold.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\Montserrat-SemiBold.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/RobotoSlab-Bold.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\RobotoSlab-Bold.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/RobotoSlab-Light.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\RobotoSlab-Light.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/RobotoSlab-Regular.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\RobotoSlab-Regular.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/RobotoSlab-Thin.woff
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\RobotoSlab-Thin.woff
+Content Type: font/woff
+
+Uri: https://www.kvtservice.com.ua/fonts/stylesheet.css
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\fonts\stylesheet.css
+Content Type: text/css
+
+Uri: https://www.kvtservice.com.ua/img/1.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\1.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/advantages-desctop.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages-desctop.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/advantages1.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages1.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/advantages2.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages2.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/advantages3.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages3.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/advantages4.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages4.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/advantages5.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages5.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/advantages6.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages6.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/advantages7.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\advantages7.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/Approved.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\Approved.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/arrow.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrow22.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow22.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrow23.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow23.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrow3_1.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow3_1.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrow7.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow7.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrow8.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow8.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrowkek.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrowkek.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrow_3.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow_3.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/arrow_lel.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\arrow_lel.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/back10.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\back10.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/back11.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\back11.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/back13.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\back13.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/back4.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\back4.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/backkek.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\backkek.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/compl7.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\compl7.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/down.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\down.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/ellipse.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\ellipse.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/facebook.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\facebook.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/fb.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\fb.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/guys.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\guys.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/hh.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\hh.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/house.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\house.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/icons/key.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\icons\key.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/icons/location.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\icons\location.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/icons/medal.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\icons\medal.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/icons/ruler.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\icons\ruler.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/icons/work.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\icons\work.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/item7_1.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\item7_1.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/item7_2.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\item7_2.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/item7_3.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\item7_3.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/item7_4.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\item7_4.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/item7_5.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\item7_5.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/key_mockup.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\key_mockup.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/kov.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\kov.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/logotype/01.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\logotype\01.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/main-bg.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\main-bg.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/modal_ok.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\modal_ok.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/news/news-bg.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\news\news-bg.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/partners/00.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\00.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/partners/01.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\01.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/partners/03.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\03.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/partners/04.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\04.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/partners/05.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\05.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/partners/06.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\06.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/partners/07.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\07.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/partners/08.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\08.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/partners/09.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\09.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/partners/10.svg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\10.svg
+Content Type: image/svg+xml
+
+Uri: https://www.kvtservice.com.ua/img/partners/11.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\11.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/partners/12.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\partners\12.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/present_back.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\present_back.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/price_mockup.png
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\price_mockup.png
+Content Type: image/png
+
+Uri: https://www.kvtservice.com.ua/img/quiz/19991-tambovskaya-setevaya-kompaniya-postroit-novuyu-stantsiyu-ochistki-vody-v-kotovske.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\19991-tambovskaya-setevaya-kompaniya-postroit-novuyu-stantsiyu-ochistki-vody-v-kotovske.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/3dc5af64403de0fd7593b51609967a28.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\3dc5af64403de0fd7593b51609967a28.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/63218b26190a9.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\63218b26190a9.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f048d1bfa5.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f048d1bfa5.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f0599a6419.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f0599a6419.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f075d9fc9e.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f075d9fc9e.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f084e08651.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f084e08651.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f08c5ceeb6.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f08c5ceeb6.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f08e6eaa00.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f08e6eaa00.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f0ba47e606.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f0ba47e606.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/638f0bc9219d8.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\638f0bc9219d8.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/gazifikatsiya-promyishlennogo-ob'ekta.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\gazifikatsiya-promyishlennogo-ob'ekta.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/img_16226794289196-1.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\img_16226794289196-1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/kak-pravilno-sdelat-otoplenie-v-chastnom-dome.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\kak-pravilno-sdelat-otoplenie-v-chastnom-dome.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/klimat-kontrol-7.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\klimat-kontrol-7.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/montag_narugnogo_vodoprovoda.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\montag_narugnogo_vodoprovoda.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/prom-vodosnabzhenie_08.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\prom-vodosnabzhenie_08.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/prom_kotel.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\prom_kotel.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/rtuiui.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\rtuiui.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/service-2.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\service-2.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/quiz/vodosnabzhenie-10-1.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\quiz\vodosnabzhenie-10-1.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/seven_back.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\seven_back.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/test/test-bg.html
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\test\test-bg.html
+Content Type: text/html
+
+Uri: https://www.kvtservice.com.ua/img/works/01.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\01.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/02.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\02.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/03.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\03.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/04.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\04.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/05.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\05.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/06.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\06.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/07.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\07.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/08.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\08.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/09.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\09.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/10.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\10.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/12.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\12.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/13.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\13.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/14.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\14.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/15.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\15.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/16.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\16.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/img/works/17.jpg
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\img\works\17.jpg
+Content Type: image/jpeg
+
+Uri: https://www.kvtservice.com.ua/js/jquery-3.3.1.min.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\jquery-3.3.1.min.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/jquery.maskedinput.min.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\jquery.maskedinput.min.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/jquery.ui.touch-punch.min.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\jquery.ui.touch-punch.min.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/parallax.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\parallax.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/quiz.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\quiz.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/script.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\script.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/slick.min.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\slick.min.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/sly.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\sly.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/spin.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\spin.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/test.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\test.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/js/ui.js
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\js\ui.js
+Content Type: application/javascript
+
+Uri: https://www.kvtservice.com.ua/video/vbg.mp4
+File Name: D:\DOWNLOADED WEBSITES\www.kvtservice.com.ua\video\vbg.mp4
+Content Type: video/mp4
+
