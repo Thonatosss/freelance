@@ -159,13 +159,58 @@ var I = function () {
         // Flatten the array and remove duplicates using a Set
         const uniqueResults = [...new Set(flattenArray(results))];
 
-        const message = `Survey Results:\n${JSON.stringify(uniqueResults, null, 2)}`;
+        const translationMap = {
+            "quiz_input_29oyzp93bf2": "Що вас цікавить",
+            "quiz_input_q3fjlp3n3w": "Тип водопостачання",
+            "quiz_input_oe52cn27hk": "Протяжність мережі",
+            "quiz_input_1kc832hyioh": "Подарунок",
+            "quiz_input_fj14dh5z5k": "Тип газопостачання",
+            "quiz_input_12at4d58po": "Теплопродуктивність обладнання",
+            "quiz_input_yz0jx18kfn": "Тип клімат контролю",
+            "quiz_input_1sh1dygsk1n": "Орієнтовна опалювальна площа",
+            "quiz_input_5ncawplyhy": "Орієнтовний вентильований об'єм",
+            "quiz_input_1bk5av67199": "Тип теплопостачання",
+            "name": "Ім'я",
+            "phone": "Телефон"
+
+        };
+        const formattedData = [];
+        let userName = null;
+        let userPhone = null;
+
+        for (let i = 0; i < uniqueResults.length; i += 2) {
+            const key = uniqueResults[i];
+            const value = uniqueResults[i + 1];
+
+            if (key === "name") {
+                userName = value;
+            } else if (key === "phone") {
+                userPhone = value;
+            } else {
+                // Перевірка чи ключ має переклад
+                const translatedKey = translationMap[key] || key;
+
+                // Додавання відформатованого запису до результату (за винятком ім'я та номеру телефону)
+                formattedData.push(`${translatedKey}: ${value}`);
+            }
+
+        }
+        if (userPhone !== null) {
+            formattedData.unshift(`Номер Телефону: ${userPhone}`);
+        }
+        if (userName !== null) {
+            formattedData.unshift(`Ім'я замовника: ${userName}`);
+        }
+
+
+        const message = `Нове замовлення!\n${formattedData.join(";\n")}`;
         const data = {
             chat_id: CHAT_ID,
             text: message,
         };
 
-        console.log(uniqueResults);
+        // Приклад виведення результатів
+
 
         try {
             const response = await fetch(URL, {
@@ -396,9 +441,7 @@ var I = function () {
             this.updateProgress();
 
             // Add the following lines to send survey results to Telegram after showing the next question
-            if (!t) {
-
-                // Attach the event listener for the "Вiдправити" button
+            if (!t && !this.sendButtonClickListenerAttached) {
                 this.sendButton.each((button) => {
                     button.addEventListener('click', async () => {
                         // Validate the form before submission
@@ -426,6 +469,9 @@ var I = function () {
                             }
                         }
                     });
+
+                    // Set a flag to indicate that the event listener is attached
+                    this.sendButtonClickListenerAttached = true;
                 });
             }
         }
