@@ -203,7 +203,6 @@
 
             <div
               class="quiz"
-              thanks="thanks.php"
               style="
                 --q-text-color: #222222;
                 --q-bg-color: rgba(248, 248, 248, 1);
@@ -257,9 +256,9 @@
                     branch="main"
                     question-index="0"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
-                        <span class="quiz_question-num">1</span>Що вас цiкавить
+                        <span class="quiz_question-num">1</span>Що вас цiкавить?
                       </p>
                       <div class="quiz_question_block">
                         <div class="quiz_question_inputs">
@@ -362,7 +361,7 @@
                     branch="1"
                     question-index="1"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">2</span>Тип
                         водопостачання
@@ -442,7 +441,7 @@
                     branch="2"
                     question-index="2"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">2</span>Тип
                         газопостачання
@@ -498,7 +497,7 @@
                     branch="3"
                     question-index="3"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">2</span>Тип клiмат
                         контролю
@@ -570,7 +569,7 @@
                     branch="6"
                     question-index="4"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">2</span>Тип
                         теплопостачання
@@ -640,7 +639,7 @@
                     branch="12"
                     question-index="5"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">2</span>Тип об'єкту
                       </p>
@@ -709,7 +708,7 @@
                     branch="4"
                     question-index="6"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Орієнтовна
                         протяжність мережі
@@ -747,7 +746,7 @@
                     branch="5"
                     question-index="7"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Кількість
                         споживачів
@@ -785,7 +784,7 @@
                     branch="7"
                     question-index="8"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Орієнтовна
                         необхідна витрата води
@@ -823,7 +822,7 @@
                     branch="8"
                     question-index="9"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span
                         >Теплопродуктивність обладнання
@@ -863,7 +862,7 @@
                     branch="9"
                     question-index="10"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Орієнтовна
                         опалювальна площа
@@ -901,7 +900,7 @@
                     branch="13"
                     question-index="11"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Орієнтовна площа
                         об'єкту
@@ -939,7 +938,7 @@
                     branch="16"
                     question-index="12"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Орієнтовна площа
                         об'єкту
@@ -977,7 +976,7 @@
                     branch="10"
                     question-index="13"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Орієнтовний
                         вентильований об'єм
@@ -1015,7 +1014,7 @@
                     branch="11"
                     question-index="14"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">3</span>Орієнтовна
                         кондиціонована площа
@@ -1053,7 +1052,7 @@
                     branch="podall"
                     question-index="15"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">4</span>Оберiть
                         подарунок
@@ -1110,7 +1109,7 @@
                     branch="pod3d"
                     question-index="16"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         <span class="quiz_question-num">4</span>Оберiть
                         подарунок
@@ -1170,7 +1169,7 @@
                     branch="main"
                     question-index="17"
                   >
-                    <form method="POST" action="#">
+                    <form action="#">
                       <p class="quiz_question-text">
                         Щоб отримати розрахунок, залиште свої дані
                       </p>
@@ -1697,7 +1696,7 @@
             до прайсу
           </div>
 
-          <form class="modal-form" action="/thanks.php" method="post">
+          <form class="modal-form">
             <input type="hidden" name="formname" value="price" />
             <div class="main-input input-modal-wrap">
               <span class="icon-Phones"></span>
@@ -1732,15 +1731,14 @@
         <div class="modal">
           <div class="modal-title">Передзвонимо протягом 10 хвилин</div>
 
-          <form class="modal-form" action="thanks.php" method="post">
+          <form class="modal" id="modal">
             <div class="main-input input-modal-wrap">
               <span class="icon-Woman"></span
               ><input
                 class="main-input__inner"
                 type="text"
-                id="text1232"
                 placeholder="Ваше ім’я"
-                name="name"
+                name="formName"
                 required=""
               />
             </div>
@@ -1750,7 +1748,6 @@
               <input
                 class="main-input__inner input-modal"
                 type="tel"
-                id="tel23"
                 placeholder="+380 (**) *** ** **"
                 tabindex="0"
                 name="yourPhone"
@@ -1984,6 +1981,7 @@
     <script src="js/test.js"></script>
     <script src="js/quiz.js"></script>
     <script src="js/script.js"></script>
+    <script type="module" src="./js/telegramBot.js"></script>
     <script>
       $(".gallery__more").click(function () {
         $(".gallery__item").removeClass("hide");

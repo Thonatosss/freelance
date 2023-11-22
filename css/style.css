@@ -222,7 +222,7 @@ button {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  background: #8bc658;
+  background: #173647;
   /* border: solid 2px white; */
   border-radius: 10px;
   color: #fff;
@@ -257,8 +257,7 @@ button {
   width: 8.7vw;
   /*width: 100%;*/
 }
-.logo {
-}
+
 .header-inner-logo-left__text {
   font-size: 1.25vw;
   color: #ffffff;
@@ -756,7 +755,7 @@ button {
   padding: 1.4vw;
   /*-webkit-box-shadow: 0 1rem 2rem #ffc316, inset 0 -4px 0 #cd8f38;*/
   /*box-shadow: 0 0rem 2rem #e2eb4e, inset 0 -4px 0 #cd8f38;*/
-  background-color: #8bc658;
+  background-color: #173647;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6854,7 +6853,7 @@ section#about-us p {
   font-size: 24px;
   text-align: center;
   display: block;
-  color: #8bc658;
+  color: #173647;
   font-weight: 600;
 }
 .quiz_question_range-input {

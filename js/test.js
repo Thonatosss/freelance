@@ -16,14 +16,14 @@ for (var i = 0; i < maxNumber; i++) {
     activeSlede[i] = false;
 }
 
-$element.on('change input', function(e) {
+$element.on('change input', function (e) {
     var value = $(this).val().trim();
     isValid = value !== "";
     btnActive(!isValid);
     $(".text-subbtn").hide();
 });
 
-$("#final").on('change input mousemove scroll click', function() {
+$("#final").on('change input mousemove scroll click', function () {
     $(".test-item__progress, .test-item__desc").hide();
     $(".btn--wrap").hide();
     $(".text-subbtn").hide();
@@ -62,7 +62,7 @@ progress(0);
 
 function btnClick() {
 
-    btnPrev.on('click', function(event) {
+    btnPrev.on('click', function (event) {
         event.preventDefault();
         number = 0;
         $(".test-slider__item").hide();
@@ -107,27 +107,15 @@ function btnClick() {
 
     var foo = $(".ner-block-1");
 
-    $(".select-ner").click(function() {
+    $(".select-ner").click(function () {
         foo.detach();
         // console.log("НАЖАЛ");
     });
 
-    // $(".return-ner").click(function(){
-    //   foo.insertAfter(".first-test-item");
-    //   // console.log("NAZHAL");
-    // });
-
-
-    // var rabota = $(".rabota");
-
-    // $(".rabota-ner").click(function(){
-    //   rabota.detach();
-    // });
 
 
 
-
-    btnNext.on('click', function(event) {
+    btnNext.on('click', function (event) {
         event.preventDefault();
         activeSlede[number] = true;
 
@@ -148,11 +136,7 @@ function btnClick() {
                 "src": 'img/present_big.png',
             });
         } else {
-            // $('#present_img').attr({
-            //   "src": 'img/q_present.png',
-            // });
-            // testText.text('Ваш подарок');
-            // $('.test__img-title').hide();
+
         }
 
         // 2123213123213213312323
@@ -169,33 +153,7 @@ function btnClick() {
         if (number === maxNumber - 1) {
             $('.test__btn-block').hide();
             (".text-subbtn").hide();
-            // var presents;
-            // var present = $(".test-slider__item").eq(maxNumber - 2).find('input').attr('checked');
-            // $(".test-slider__item").eq(maxNumber - 2).find('input').each(function(index, el) {
-            //   if($(this).prop("checked") === true){
-            //     presents = $(this).val().trim().toLowerCase();
-            //   }
-            // });
 
-            // if(presents === 'подарок 1'){
-            //   testText.text('Ваш подарок КНИГА');
-            //   $(".test__img-price").text("Цена: 2500 р");
-            //   $('#present_img').attr({
-            //     "src": 'img/present_big.png',
-            //   });
-            // }else  if(presents === 'подарок 2'){
-            //   testText.text('Ваш подарок КНИГА 2');
-            //   $(".test__img-price").text("Цена: 2300 р");
-            //   $('#present_img').attr({
-            //     "src": 'img/present_big.png',
-            //   });
-            // }else  if(presents === 'подарок 3'){
-            //   testText.text('Ваш подарок КНИГА 3');
-            //   $(".test__img-price").text("Цена: 2100 р");
-            //   $('#present_img').attr({
-            //     "src": 'img/present_big.png',
-            //   });
-            // }
         }
 
         if (number === maxNumber - 2) {
@@ -221,40 +179,14 @@ function btnClick() {
 
 }
 btnClick();
-// var presents;
-// $(".test-presents-slide").find('input').on('input change', function() {
-//     if ($(this).val().trim() !== "") {
-//         //   presents = $(this).val().trim().toLowerCase(); customRadio__img
-//         presents = $(this).parents('.test-slider__elem').index();
-//     }
-//     $('.test__img-price').show();
-//     if (presents === 0) {
-//         testText.text('Клінінг після ремонту');
-//         //   $(".test__img-price").text("Цена: 2500 р");
-//         $('#present_img').attr({
-//             "src": 'img/item7_1.jpg',
-//         });
-//     } else if (presents === 1) {
-//         testText.text('Фотозйомка приміщення після ремонту');
-//         //   $(".test__img-price").text("Цена: 2300 р");
-//         $('#present_img').attr({
-//             "src": 'img/item7_2.jpg',
-//         });
-//     } else if (presents === 2) {
-//         testText.text('Консультація керівника');
-//         //   $(".test__img-price").text("Цена: 2100 р");
-//         $('#present_img').attr({
-//             "src": 'img/item7_3.jpg',
-//         });
-//     }
-// });
+
 
 function triggerBtn(e) {
     e.preventDefault();
     activeSlede[number] = true;
 
     ++number;
-    // уцкукцук
+
 
     if (testTextNum != 1) {
         testTextNum -= 1;
@@ -270,11 +202,7 @@ function triggerBtn(e) {
             "src": 'img/present_big.png',
         });
     } else {
-        // $('#present_img').attr({
-        //   "src": 'img/q_present.png',
-        // });
-        // testText.text('Ваш подарок');
-        // $('.test__img-title').hide();
+        ;
     }
 
     // 2123213123213213312323
@@ -291,33 +219,7 @@ function triggerBtn(e) {
     if (number === maxNumber - 1) {
         $('.test__btn-block').hide();
         (".text-subbtn").hide();
-        // var presents;
-        // var present = $(".test-slider__item").eq(maxNumber - 2).find('input').attr('checked');
-        // $(".test-slider__item").eq(maxNumber - 2).find('input').each(function(index, el) {
-        //   if($(this).prop("checked") === true){
-        //     presents = $(this).val().trim().toLowerCase();
-        //   }
-        // });
 
-        // if(presents === 'подарок 1'){
-        //   testText.text('Ваш подарок КНИГА');
-        //   $(".test__img-price").text("Цена: 2500 р");
-        //   $('#present_img').attr({
-        //     "src": 'img/present_big.png',
-        //   });
-        // }else  if(presents === 'подарок 2'){
-        //   testText.text('Ваш подарок КНИГА 2');
-        //   $(".test__img-price").text("Цена: 2300 р");
-        //   $('#present_img').attr({
-        //     "src": 'img/present_big.png',
-        //   });
-        // }else  if(presents === 'подарок 3'){
-        //   testText.text('Ваш подарок КНИГА 3');
-        //   $(".test__img-price").text("Цена: 2100 р");
-        //   $('#present_img').attr({
-        //     "src": 'img/present_big.png',
-        //   });
-        // }
     }
 
     if (number === maxNumber - 2) {
@@ -340,12 +242,12 @@ function triggerBtn(e) {
     }
 }
 
-$(".skipEl").click(function() {
+$(".skipEl").click(function () {
     $(this).find(".customRadio_radio").prop("checked", "checked");
     triggerBtn(event);
     if ($("input[value='Солнечные коллектора']").prop("checked") || $("input[value='Водоснабжения']").prop("checked") || $("input[value='Комплекс услуг']").prop("checked")) {
         console.log("True");
-        $("#ques6-6_1.skipEl, #ques6-6_2.skipEl, #ques6-6_3.skipEl, #ques6-6_4.skipEl").on('click', function() {
+        $("#ques6-6_1.skipEl, #ques6-6_2.skipEl, #ques6-6_3.skipEl, #ques6-6_4.skipEl").on('click', function () {
             price.style.display = "none";
             final.style.display = "block";
         });
@@ -367,7 +269,7 @@ $("#number-slider").slider({
     value: 70,
     min: 70,
     max: 1000,
-    slide: function(event, ui) {
+    slide: function (event, ui) {
         $("#send-result-polzunok").val(ui.value);
         $(".text-subbtn").hide();
     }
@@ -376,7 +278,7 @@ $("#send-result-polzunok").val($("#number-slider").slider("value"));
 var crdVal;
 var crdMin = $("#number-slider").slider("option", "min");
 var crdMax = $("#number-slider").slider("option", "max");
-$("#send-result-polzunok").on('keyup', function(event) {
+$("#send-result-polzunok").on('keyup', function (event) {
     crdVal = $('#send-result-polzunok').val().trim();
 
     if (parseInt(crdVal) > +crdMax) {
@@ -392,13 +294,13 @@ $("#send-result-polzunok").on('keyup', function(event) {
     $("#number-slider").slider("value", $(this).val());
 });
 
-$("#send-result-polzunok").on("change , input", function() {
+$("#send-result-polzunok").on("change , input", function () {
     if (crdVal === '') {
         $('#send-result-polzunok').val();
     }
 });
 
-$("#no").on('change input', function() {
+$("#no").on('change input', function () {
     if ($(this).prop('checked')) {
         $("#number-slider").slider("value", 0);
         $("#number-slider").slider("disable");
@@ -411,7 +313,7 @@ $("#no").on('change input', function() {
 
 
 $("#number-slider").slider({
-    change: function(event, ui) {
+    change: function (event, ui) {
         btnNext.prop('disabled', false);
     }
 });
@@ -555,17 +457,17 @@ var eventMatchers = {
     'MouseEvents': /^(?:click|dblclick|mouse(?:down|up|over|move|out))$/
 }
 var defaultOptions = {
-        pointerX: 0,
-        pointerY: 0,
-        button: 0,
-        ctrlKey: false,
-        altKey: false,
-        shiftKey: false,
-        metaKey: false,
-        bubbles: true,
-        cancelable: true
-    }
-    // -----------------------
+    pointerX: 0,
+    pointerY: 0,
+    button: 0,
+    ctrlKey: false,
+    altKey: false,
+    shiftKey: false,
+    metaKey: false,
+    bubbles: true,
+    cancelable: true
+}
+// -----------------------
 
 // var box3 = $(".q3");
 // var box4 = $(".q4");
@@ -636,17 +538,17 @@ var defaultOptions = {
 var price = document.getElementById("price-ques");
 var final = document.getElementById("final");
 
-$("#ques-1.skipEl").on('click', function() {
+$("#ques-1.skipEl").on('click', function () {
     console.log("ques-1");
-    $("#ques2-1.skipEl, #ques2-2.skipEl, #ques2-3.skipEl").on('click', function() {
+    $("#ques2-1.skipEl, #ques2-2.skipEl, #ques2-3.skipEl").on('click', function () {
         console.log("ques-2");
-        $("#btn-next").on('click', function() {
+        $("#btn-next").on('click', function () {
             console.log("метры кв");
-            $("#ques6-6_1.skipEl, #ques6-6_2.skipEl, #ques6-6_3.skipEl, #ques6-6_4.skipEl").on('click', function() {
+            $("#ques6-6_1.skipEl, #ques6-6_2.skipEl, #ques6-6_3.skipEl, #ques6-6_4.skipEl").on('click', function () {
                 console.log("ques-6");
                 price.style.display = "block";
                 final.style.display = "none";
-                $("#ques7-7_1.skipEl, #ques7-7_2.skipEl").on('click', function() {
+                $("#ques7-7_1.skipEl, #ques7-7_2.skipEl").on('click', function () {
                     price.style.display = "none";
                     final.style.display = "block";
                 });
