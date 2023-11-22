@@ -150,11 +150,22 @@ var I = function () {
         const TOKEN = "6956288167:AAHuR7oOShLoxF1MEcaLUOj_gk_TouvRYIo";
         const CHAT_ID = "-1001533686542";
         const URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
-        const message = `Survey Results:\n${JSON.stringify(results, null, 2)}`;
+
+        // Function to recursively flatten an array
+        function flattenArray(arr) {
+            return arr.reduce((flat, toFlatten) => flat.concat(Array.isArray(toFlatten) ? flattenArray(toFlatten) : toFlatten), []);
+        }
+
+        // Flatten the array and remove duplicates using a Set
+        const uniqueResults = [...new Set(flattenArray(results))];
+
+        const message = `Survey Results:\n${JSON.stringify(uniqueResults, null, 2)}`;
         const data = {
             chat_id: CHAT_ID,
             text: message,
         };
+
+        console.log(uniqueResults);
 
         try {
             const response = await fetch(URL, {
@@ -171,6 +182,7 @@ var I = function () {
             console.error('Error sending survey results to Telegram:', error);
         }
     }
+
     class m {
         constructor(t) {
             f(this, "interactive");
@@ -266,90 +278,159 @@ var I = function () {
                 this.interactive = !0;
             });
         }
-        sendForm() {
-            if (!this.interactive) return;
-            this.interactive = !1;
-            const t = this.currentQuestionElement.querySelector("form");
-            if (t != null && t.checkValidity()) {
-                const s = new FormData(t),
-                    a = JSON.parse(JSON.stringify(this.data[this.data.length - 1])),
-                    r = new Set();
-                s.forEach((g, w) => r.add(w)),
-                    r.forEach((g) => {
-                        a.push([g, s.getAll(g)]);
-                    });
+        // sendForm() {
+        //     if (!this.interactive) return;
+        //     this.interactive = !1;
+        //     const t = this.currentQuestionElement.querySelector("form");
+        //     if (t != null && t.checkValidity()) {
+        //         const s = new FormData(t),
+        //             a = JSON.parse(JSON.stringify(this.data[this.data.length - 1])),
+        //             r = new Set();
+        //         s.forEach((g, w) => r.add(w)),
+        //             r.forEach((g) => {
+        //                 a.push([g, s.getAll(g)]);
+        //             });
 
-                const i = document.createElement("form");
-                (i.method = "POST"),
-                    (i.action = this.formAction),
-                    a.forEach(([g, w]) => {
-                        w.forEach((y) => {
-                            const b = document.createElement("input");
-                            if (((b.name = g), typeof y == "string")) b.value = y;
-                            else {
-                                b.remove();
-                                return;
-                            }
-                            (b.hidden = !0), i.appendChild(b);
-                        });
-                    }),
-                    document.body.appendChild(i),
-                    i.submit(),
-                    setTimeout(() => {
-                        this.interactive = !0;
-                    }, 15e3);
-            } else this.currentQuestionElement.classList.add("validated"), this.showError(), (this.interactive = !0);
-        }
-        async showNextQuestion(t = !1) {
-            return L(this, null, function* () {
-                t || (this.currentQuestionElement.classList.add("transparent"), yield h(200), this.currentQuestionElement.classList.remove("current", "transparent"));
-                const s = new Set(this.branches[this.branches.length - 1]);
-                if (this.currentQuestionElement && !t) {
-                    const i = Array.from(this.currentQuestionElement.querySelectorAll("input:checked")),
-                        g = [],
-                        w = [];
+        //         const i = document.createElement("form");
+        //         (i.method = "POST"),
+        //             (i.action = this.formAction),
+        //             a.forEach(([g, w]) => {
+        //                 w.forEach((y) => {
+        //                     const b = document.createElement("input");
+        //                     if (((b.name = g), typeof y == "string")) b.value = y;
+        //                     else {
+        //                         b.remove();
+        //                         return;
+        //                     }
+        //                     (b.hidden = !0), i.appendChild(b);
+        //                 });
+        //             }),
+        //             document.body.appendChild(i),
+        //             i.submit(),
+        //             setTimeout(() => {
+        //                 this.interactive = !0;
+        //             }, 15e3);
+        //     } else this.currentQuestionElement.classList.add("validated"), this.showError(), (this.interactive = !0);
+        // }
+        async showNextQuestion(t = false) {
+            // Hide current question if not in transition
+            if (!t) {
+                this.currentQuestionElement.classList.add("transparent");
+                await h(200);
+                this.currentQuestionElement.classList.remove("current", "transparent");
+            }
 
-                    i.forEach((y) => {
-                        var b, S;
-                        y.getAttribute("showbranch") && g.push(...((b = y.getAttribute("showbranch")) != null ? b : "").split(",")),
-                            y.getAttribute("hidebranch") && w.push(...((S = y.getAttribute("hidebranch")) != null ? S : "").split(","));
-                    }),
-                        g.forEach((y) => s.add(y.trim())),
-                        w.forEach((y) => s.delete(y.trim()));
-                }
+            // Update branches based on user input
+            const s = new Set(this.branches[this.branches.length - 1]);
 
-                this.history.push(this.currentQuestionElement);
-                this.branches.push(Array.from(s));
-                this.data.push(JSON.parse(JSON.stringify(this.data[this.data.length - 1])));
+            if (this.currentQuestionElement && !t) {
+                const i = Array.from(this.currentQuestionElement.querySelectorAll("input:checked"));
+                const g = [];
+                const w = [];
 
-                const a = t ? 0 : this.questions.elements.indexOf(this.currentQuestionElement) + 1,
-                    r = this.questions.elements.slice(a).filter((i) => {
-                        var g;
-                        return this.branches[this.branches.length - 1].indexOf((g = i.getAttribute("branch")) != null ? g : "") >= 0;
-                    });
+                // Process showbranch and hidebranch attributes
+                i.forEach((y) => {
+                    const showBranch = y.getAttribute("showbranch");
+                    const hideBranch = y.getAttribute("hidebranch");
 
-                (this.currentQuestionElement = r[0]),
-                    this.currentQuestionElement.classList.add("current", "transparent"),
-                    requestAnimationFrame(() => {
-                        this.currentQuestionElement.classList.remove("transparent"), t || window.scrollTo({ top: window.scrollY + this.rootElement.getBoundingClientRect().top, behavior: "smooth" });
-                    });
+                    if (showBranch) g.push(...showBranch.split(","));
+                    if (hideBranch) w.push(...hideBranch.split(","));
+                });
 
-                r.length == 1
-                    ? (this.nextButton.each((i) => i.classList.add("hidden")), this.sendButton.each((i) => i.classList.remove("hidden")))
-                    : (this.sendButton.each((i) => i.classList.add("hidden")), this.nextButton.each((i) => i.classList.remove("hidden"))),
-                    this.updateProgress(),
-                    yield h(200);
+                g.forEach((y) => s.add(y.trim()));
+                w.forEach((y) => s.delete(y.trim()));
+            }
 
-                // Add the following lines to send survey results to Telegram after showing the next question
+            // Push current state to history, branches, and data
+            this.history.push(this.currentQuestionElement);
+            this.branches.push(Array.from(s));
+
+            // Only push the new data for the current step
+            const currentStepData = Array.from(this.currentQuestionElement.querySelectorAll("input:checked")).map((y) => {
+                const key = y.getAttribute("name");
+                const value = y.getAttribute("type") === "checkbox"
+                    ? Array.from(y.querySelectorAll(":checked")).map((checkbox) => checkbox.value)
+                    : y.value;
+                return [key, [value]];
+            });
+
+            this.data.push(currentStepData);
+
+            // Create a formatted version of the survey results for display
+            const formattedResults = this.data.map((stepData, index) => {
+                const stepNumber = index + 1;
+                const stepResults = stepData.map(([key, value]) => `${key}: ${value.join(", ")}`);
+                return [`Step ${stepNumber}`, stepResults];
+            });
+
+            console.log("Survey Results:", formattedResults);
+
+            // Get next eligible question
+            const a = t ? 0 : this.questions.elements.indexOf(this.currentQuestionElement) + 1;
+            const r = this.questions.elements.slice(a).filter((i) => {
+                const g = i.getAttribute("branch");
+                return this.branches[this.branches.length - 1].indexOf(g !== null ? g : "") >= 0;
+            });
+
+            // Set the next question and animate its appearance
+            this.currentQuestionElement = r[0];
+            this.currentQuestionElement.classList.add("current", "transparent");
+
+            requestAnimationFrame(() => {
+                this.currentQuestionElement.classList.remove("transparent");
                 if (!t) {
-                    try {
-                        sendSurveyResultsToTelegram(this.data);
-                    } catch (error) {
-                        console.error('Error sending survey results to Telegram:', error);
-                    }
+                    window.scrollTo({ top: window.scrollY + this.rootElement.getBoundingClientRect().top, behavior: "smooth" });
                 }
             });
+
+            // Show appropriate buttons based on the number of eligible questions
+            if (r.length == 1) {
+                this.nextButton.each((i) => i.classList.add("hidden"));
+                this.sendButton.each((i) => i.classList.remove("hidden"));
+            } else {
+                this.sendButton.each((i) => i.classList.add("hidden"));
+                this.nextButton.each((i) => i.classList.remove("hidden"));
+            }
+
+            // Update progress and wait for a short duration
+            this.updateProgress();
+
+            // Add the following lines to send survey results to Telegram after showing the next question
+            if (!t) {
+
+                // Attach the event listener for the "Вiдправити" button
+                this.sendButton.each((button) => {
+                    button.addEventListener('click', async () => {
+                        // Validate the form before submission
+                        const nameInput = this.currentQuestionElement.querySelector('input[name="formName"]');
+                        const phoneInput = this.currentQuestionElement.querySelector('input[name="fromPhone"]');
+
+                        console.log(nameInput);
+                        console.log(phoneInput);
+
+                        if (nameInput && phoneInput) {
+                            const name = nameInput.value;
+                            const phone = phoneInput.value;
+
+                            // Add name and phone to the survey results for the current step
+                            this.data[this.data.length - 1].push(['name', [name]]);
+                            this.data[this.data.length - 1].push(['phone', [phone]]);
+                        }
+                        const form = this.currentQuestionElement.querySelector('form');
+                        if (form && form.checkValidity()) {
+                            // Send the entire survey results to Telegram
+                            try {
+                                await sendSurveyResultsToTelegram(this.data);
+                            } catch (error) {
+                                console.error('Error sending survey results to Telegram:', error);
+                            }
+                        }
+                    });
+                });
+            }
         }
+
+
         initRequiredCheckboxGroups() {
             e.find(this.rootElement, ".quiz_variants_group[required=checkbox]").each((t) => {
                 t.addEventListener("change", function (s) {
@@ -369,8 +450,8 @@ var I = function () {
         }
         initButtonListenters() {
             this.backButton.each((t) => t.addEventListener("click", () => this.goBack())),
-                this.nextButton.each((t) => t.addEventListener("click", () => this.goForward())),
-                this.sendButton.each((t) => t.addEventListener("click", () => this.sendForm()));
+                this.nextButton.each((t) => t.addEventListener("click", () => this.goForward()));
+            // this.sendButton.each((t) => t.addEventListener("click", () => this.sendForm()));
         }
         disableFormSubmits() {
             Array.from(this.rootElement.querySelectorAll("form")).forEach(function (t) {
