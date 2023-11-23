@@ -3837,10 +3837,18 @@ section#about-us .one-vhar span {
 }
 .row {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .col-lg-5 {
-  width: 40%;
+  display: flex;
+  width: 30%;
   padding-right: 30px;
+}
+@media screen and (max-width: 1200px) {
+  .col-lg-5 {
+    width: 50%;
+  }
 }
 .col-lg-7 {
   width: 60%;
@@ -3893,6 +3901,11 @@ section#about-us p {
   line-height: 24px;
   margin-bottom: 15px;
   text-align: justify;
+}
+@media screen and (min-width: 1200px) {
+  section#about-us p {
+    font-size: 24px;
+  }
 }
 /* ---------- #about-us ----------- */
 
