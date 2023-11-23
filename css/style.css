@@ -3839,6 +3839,9 @@ section#about-us .one-vhar span {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #173647;
+  border-radius: 25px;
+  padding: 10px;
 }
 .col-lg-5 {
   display: flex;
@@ -3852,6 +3855,7 @@ section#about-us .one-vhar span {
 }
 .col-lg-7 {
   width: 60%;
+  color: white;
 }
 ul.main_advantage {
   list-style: none;
