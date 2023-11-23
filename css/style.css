@@ -281,7 +281,7 @@ button {
   font-size: 0.729vw;
   color: #eeeeee;
   line-height: 1.7em;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-weight: 300;
 }
 
@@ -873,7 +873,7 @@ button {
 }
 
 .test-item__title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 2.395vw;
   font-weight: 700;
   line-height: 1.304;
@@ -914,7 +914,7 @@ button {
   -ms-flex-pack: center;
   justify-content: center;
   color: #000000;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 4.5rem;
   font-weight: 700;
   text-transform: uppercase;
@@ -1198,7 +1198,7 @@ button {
 
 .test-slider-title {
   margin-bottom: 2vw;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 1.4vw;
   font-weight: 700;
   /* width: 90%; */
@@ -1405,7 +1405,7 @@ button {
 }
 
 .test-slider__data-title {
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 1vw;
   font-weight: 600;
   margin-bottom: 1vw;
@@ -2384,7 +2384,7 @@ button {
 
 .tooltip-test__subtitle {
   display: block;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 1.7rem;
   font-weight: 300;
   margin-bottom: 1.3rem;
@@ -3775,7 +3775,7 @@ section#about-us {
   padding-bottom: 40px;
 }
 section#about-us img {
-  border-radius: 50%;
+  border-radius: 30%;
   margin-top: 0px;
   border: 10px solid #f3f3f3;
 }
@@ -5033,7 +5033,7 @@ section#about-us p {
   text-transform: uppercase;
   font-weight: 300;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   z-index: 6;
 }
 
@@ -5113,7 +5113,7 @@ section#about-us p {
     margin-bottom: 15px;
   }
   section#about-us img {
-    border-radius: 50%;
+    border-radius: 30%;
     margin-top: 0px;
     margin-bottom: 15px;
     border: 10px solid #f3f3f3;
@@ -5506,7 +5506,7 @@ section#about-us p {
 
 .trigger-moadl-text {
   color: #e2eb4e;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 1.05vw;
   font-weight: 700;
   text-transform: uppercase;
@@ -5515,7 +5515,7 @@ section#about-us p {
 
 .modal-title {
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 1.4vw;
   font-weight: 700;
   margin-bottom: 0.7vw;
@@ -5523,7 +5523,7 @@ section#about-us p {
 
 .modal-descr {
   color: #222222;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 1vw;
   font-weight: 300;
   line-height: 1.7;
@@ -5536,7 +5536,7 @@ section#about-us p {
 
 .modal-text {
   color: #999999;
-  font-family: "Montserrat", sans-serif;
+  font-family: "TT Travels";
   font-size: 0.9;
   font-weight: 300;
   margin-bottom: 0.7vw;

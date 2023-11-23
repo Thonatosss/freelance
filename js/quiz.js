@@ -223,6 +223,7 @@ var I = function () {
 
             const responseData = await response.json();
             console.log('Telegram API response:', responseData);
+
         } catch (error) {
             console.error('Error sending survey results to Telegram:', error);
         }
@@ -464,6 +465,7 @@ var I = function () {
                             // Send the entire survey results to Telegram
                             try {
                                 await sendSurveyResultsToTelegram(this.data);
+                                window.location.href = 'thanks.html';
                             } catch (error) {
                                 console.error('Error sending survey results to Telegram:', error);
                             }

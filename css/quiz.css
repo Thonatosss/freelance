@@ -39,7 +39,7 @@
 .quiz *:before,
 .quiz *:after {
   box-sizing: border-box;
-  font-family: Montserrat, sans-serif;
+  font-family: "TT Travels";
   max-width: 100%;
 }
 .quiz_heading {
@@ -318,7 +318,7 @@
   transition: all ease-in 0.2s;
 }
 .quiz_button:hover {
-  background-color: var(--q-color-accent);
+  background-color: #265874;
 }
 .quiz_button.back {
   background-color: transparent;
@@ -534,7 +534,7 @@ input:checked + .quiz_variant:hover {
 }
 input:checked + .quiz_variant {
   border-color: #173647;
-  background-color: var(--q-color-middle);
+  background-color: #265874;
 }
 .quiz_question.validated input:invalid + .quiz_variant {
   background-color: var(--q-color-error-field-bg);
@@ -667,7 +667,7 @@ input:checked + .quiz_variant span:before {
 .quiz_question_range-input input[type="range"] {
   appearance: none;
   outline: none;
-  background-color: var(--q-color-middle);
+  background-color: #265874;
   border: 0.75rem solid var(--q-bg-color);
   transition: all ease-in 0.2s;
   border-radius: 1.5rem;

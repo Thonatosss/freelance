@@ -1,20 +1,21 @@
 ﻿<!DOCTYPE html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Заявку прийнято</title>
     <style>
-      @import 'css2';
+      @import "css2";
       body {
         margin: 0;
         display: grid;
         place-items: center;
-        background: linear-gradient(#00000099, #00000099), url("img/main-bg.jpg") 50% 50%;
+        background: linear-gradient(#00000099, #00000099),
+          url("img/main-bg.jpg") 50% 50%;
         background-size: cover;
         height: 100vh;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "TT Travels";
       }
       div {
         color: #fff;
@@ -24,39 +25,61 @@
       }
       a {
         text-decoration: none;
-        color: #222222;
-        padding: .5em 1em;
-        background-color: #8AC759;
-        transition: background-color .2s ease-in;
+        color: white;
+        padding: 0.5em 1em;
+        background-color: #173647;
+        transition: background-color 0.2s ease-in;
         font-size: large;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
       }
-        a:hover {
-        background-color: #6E9F47;
+      a:hover {
+        background-color: #265874;
       }
     </style>
     <!-- Facebook Pixel Code -->
-<script>
-  !function(f,b,e,v,n,t,s)
-  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-  n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];
-  s.parentNode.insertBefore(t,s)}(window, document,'script',
-  'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '738246557460735');
-  fbq('track', 'PageView');
-  fbq('track', 'Lead');
-</script>
-<noscript><img height="1" width="1" style="display:none" src="tr?id=738246557460735&ev=PageView&noscript=1"></noscript>
-<!-- End Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "738246557460735");
+      fbq("track", "PageView");
+      fbq("track", "Lead");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="tr?id=738246557460735&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
   </head>
   <body>
-    
-        <div>
-    <p>Дякуємо, заявку прийнято!<br>Ми зв'яжемося з Вами найближчим часом</p>
-      <br><a href="index.htm">Повернутись на сайт</a>
+    <div>
+      <p>
+        Дякуємо, заявку прийнято!<br />Ми зв'яжемося з Вами найближчим часом
+      </p>
+      <br /><a href="index.htm">Повернутись на сайт</a>
     </div>
   </body>
 </html>
