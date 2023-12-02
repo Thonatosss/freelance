@@ -3853,12 +3853,23 @@ section#about-us .one-vhar span {
     width: 50%;
   }
 }
+.about-us-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+@media screen and (min-width: 1200px) {
+  .about-us-title {
+    font-size: 34px;
+  }
+}
 .col-lg-7 {
-  width: 60%;
-  color: white;
-  background-color: #173647;
+  width: 100%;
+  height: 100%;
+  color: black;
   padding: 50px;
   border-radius: 20px;
+  font-weight: 500;
 }
 .about-text-container {
   width: 100%;
@@ -3918,7 +3929,8 @@ section#about-us p {
 }
 @media screen and (min-width: 1200px) {
   section#about-us p {
-    font-size: 24px;
+    font-size: 30px;
+    line-height: 1.3;
   }
 }
 /* COOPERATION */
@@ -3933,15 +3945,20 @@ section#about-us p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 250px;
+  width: 240px;
   text-align: center;
 }
 .center-coop-cards {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   gap: 30px;
+}
+@media screen and (max-width: 1199px) {
+  .center-coop-cards {
+    flex-wrap: wrap;
+  }
 }
 .card-photo {
   width: 100px;
@@ -5121,7 +5138,7 @@ section#about-us p {
 .other a {
   font-size: 0.729vw;
   line-height: 1.7;
-  color: #999999;
+  color: white;
 }
 
 .other-left p {
