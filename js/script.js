@@ -244,15 +244,15 @@ $(document).ready(function ($) {
   $(".section-title").not('.title-first').each(anime);
   $(".test-item__desc").not('.subtitle-first').each(anime);
 });
-function anime() {
-  var offsetTop = $(this).offset().top - $(window).height();
-  var thisTitle = $(this);
-  $(window).scroll(function (event) {
-    if ($(document).scrollTop() > offsetTop) {
-      thisTitle.addClass('fade_in');
-    }
-  });
-}
+// function anime() {
+//   var offsetTop = $(this).offset().top - $(window).height();
+//   var thisTitle = $(this);
+//   $(window).scroll(function (event) {
+//     if ($(document).scrollTop() > offsetTop) {
+//       thisTitle.addClass('fade_in');
+//     }
+//   });
+// }
 
 
 $('.overlay').mouseup(function (e) {
