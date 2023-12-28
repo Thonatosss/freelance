@@ -160,18 +160,20 @@ var I = function () {
         const uniqueResults = [...new Set(flattenArray(results))];
 
         const translationMap = {
-            "quiz_input_29oyzp93bf2": "Що вас цікавить",
-            "quiz_input_q3fjlp3n3w": "Тип водопостачання",
-            "quiz_input_oe52cn27hk": "Протяжність мережі",
-            "quiz_input_1kc832hyioh": "Подарунок",
-            "quiz_input_fj14dh5z5k": "Тип газопостачання",
-            "quiz_input_12at4d58po": "Теплопродуктивність обладнання",
-            "quiz_input_yz0jx18kfn": "Тип клімат контролю",
-            "quiz_input_1sh1dygsk1n": "Орієнтовна опалювальна площа",
-            "quiz_input_5ncawplyhy": "Орієнтовний вентильований об'єм",
-            "quiz_input_1bk5av67199": "Тип теплопостачання",
             "name": "Ім'я",
-            "phone": "Телефон"
+            "phone": "Телефон",
+            "quiz_input_29oyzp93bf2": "Що вас цікавить",
+            "quiz_input_175csbctz6o": "Які системи цікавлять",
+            "quiz_input_1sh1dygsk1n": "Площа",
+            // "quiz_input_q3fjlp3n3w": "Тип водопостачання",
+            // "quiz_input_1sh1dygsk1n": "Орієнтовна площа об'єкту",
+            // "quiz_input_oe52cn27hk": "Протяжність мережі",
+            "quiz_input_1kc832hyioh": "Подарунок"
+            // "quiz_input_fj14dh5z5k": "Тип газопостачання",
+            // "quiz_input_12at4d58po": "Теплопродуктивність обладнання",
+            // "quiz_input_yz0jx18kfn": "Тип клімат контролю",
+            // "quiz_input_5ncawplyhy": "Орієнтовний вентильований об'єм",
+            // "quiz_input_1bk5av67199": "Тип теплопостачання",
 
         };
         const formattedData = [];
@@ -187,13 +189,12 @@ var I = function () {
             } else if (key === "phone") {
                 userPhone = value;
             } else {
-                // Перевірка чи ключ має переклад
+                // Check if the key has a translation
                 const translatedKey = translationMap[key] || key;
 
-                // Додавання відформатованого запису до результату (за винятком ім'я та номеру телефону)
+                // Add the formatted entry to the result (excluding name and phone number)
                 formattedData.push(`${translatedKey}: ${value}`);
             }
-
         }
         if (userPhone !== null) {
             formattedData.unshift(`Номер Телефону: ${userPhone}`);

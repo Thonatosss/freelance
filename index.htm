@@ -10,8 +10,8 @@
     <link
       rel="stylesheet"
       href="gh/fancyapps/fancybox%403.5.7/dist/jquery.fancybox.min.css"
-      />
-      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/quiz.css" />
 
@@ -98,9 +98,7 @@
                       target="_blank"
                       ><img src="img/facebook.png"
                     /></a>
-                    <a
-                      href="https://t.me/+380689142075"
-                      target="_blank"
+                    <a href="https://t.me/+380689142075" target="_blank"
                       ><img src="img/telegram.png"
                     /></a>
                   </div>
@@ -126,7 +124,7 @@
                   data-target="#myModal"
                 >
                   <p class="contacts-phone__recall consult">
-                    Зв'язатись з нами
+                    Зв'язатися з нами
                   </p>
                 </div>
               </div>
@@ -136,7 +134,8 @@
         <div class="first-screen-content">
           <h1 class="title-first" style="text-transform: uppercase">
             Монтаж систем опалення, вентиляції, кондиціонування у приватних
-            оселях, офісах та виробничих приміщеннях "під ключ"
+            оселях, офісах та виробничих приміщеннях
+            <span style="color: #f1e904">"під ключ"</span>
           </h1>
           <!--   <p class="first-screen-content__desc subtitle-first">
                     <span>з економією на опаленні до <b>83%</b></span>
@@ -145,43 +144,35 @@
             <div class="first-screen-content-adv__item" id="pack5">
               <img src="img/hero-icon.png" alt="" />
               <p style="text-transform: uppercase">
-                Досвід роботи понад 7 років<sup></sup>
-              </p>
-            </div>
-            <div class="first-screen-content-adv__item">
-              <img src="img/hero-icon.png" alt="" />
-              <p style="text-transform: uppercase">250+ зданих об'єктів</p>
-            </div>
-            <div class="first-screen-content-adv__item" id="pack3">
-              <img src="img/hero-icon.png" alt="" />
-              <p style="text-transform: uppercase">
-                Перед початком роботи підписуємо договір<sup></sup>
+                Досвід роботи <span style="color: #f1e904">понад 7 років</span
+                ><sup></sup>
               </p>
             </div>
             <div class="first-screen-content-adv__item">
               <img src="img/hero-icon.png" alt="" />
               <p style="text-transform: uppercase">
-                Виконуємо роботи "Під ключ"<sup></sup>
+                <span style="color: #f1e904">250+</span> зданих об'єктів
               </p>
             </div>
             <div class="first-screen-content-adv__item">
               <img src="img/hero-icon.png" alt="" />
               <p style="text-transform: uppercase">
-                Гарантійне та після гарантійне обслуговування
+                <span style="color: #f1e904">гарантійне</span> обслуговування
               </p>
             </div>
           </div>
           <div class="btn-main-wrap">
-            <button class="btn btn-main test-scroll">
+            <button
+              class="btn btn-main test-scroll"
+              style="background-color: #f1e904; color: black"
+            >
               <span class="icon-calc"></span>Розрахувати вартість
             </button>
           </div>
         </div>
       </div>
 
-      <div class="fullscreen-bg bg-dark">
-       
-      </div>
+      <div class="fullscreen-bg bg-dark"></div>
     </div>
     <style>
       @media (max-width: 768px) {
@@ -190,18 +181,40 @@
         }
       }
     </style>
-    <section class="second-screen grey" >
+    <section class="second-screen grey">
       <div class="test">
         <div class="container">
           <div class="test-item__content form-before">
-            <div class="test-item__header">
+            <div
+              class="test-item__header"
+              style="
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+              "
+            >
+              <img
+                src="./img/newIcons/hero.png"
+                alt=""
+                width="100"
+                height="100"
+                style="margin-bottom: 30px"
+              />
               <h2 class="section-title section-title--black">
-                ПРОЙДІТЬ ТЕСТ ЗА 1 ХВИЛИНУ ТА ДІЗНАЙТЕСЬ ВАРТІСТЬ МОНТАЖУ
-                ОПАЛЕННЯ ТА ВЕНТИЛЯЦІЇ ЗГІДНО ВАШИХ ПАРАМЕТРІВ
-                <span class="section-title__sub">
-                  Гарантований бонус для кожного!!!
-                </span>
+                ПРОЙДІТЬ АНКЕТУ ЗА 1 ХВИЛИНУ
               </h2>
+
+              <p class="hero-descr" style="text-align: center">
+                Дізнайтеся вартість монтажу опалення, <br />
+                вентиляції згідно ваших параметрів
+                <br />
+                <span
+                  class="hero-descr"
+                  style="font-weight: 600; color: #173647"
+                  >та гарантовано тримайте бонус</span
+                >
+              </p>
             </div>
 
             <div
@@ -225,7 +238,7 @@
                 --q-color-error-field-text: #222222;
               "
             >
-              <div class="quiz_main">
+              <!-- <div class="quiz_main">
                 <div class="quiz_progress">
                   <div class="quiz_progress-text center">
                     <strong>Питання <span class="current">1</span> </strong> з
@@ -261,7 +274,7 @@
                   >
                     <form action="#">
                       <p class="quiz_question-text">
-                        <span class="quiz_question-num">1</span>Що вас цiкавить?
+                        <span class="quiz_question-num">1</span>Тип об'єкту
                       </p>
                       <div class="quiz_question_block">
                         <div class="quiz_question_inputs">
@@ -276,15 +289,13 @@
                                 type="radio"
                                 hidden=""
                                 required=""
-                                showbranch="1,podall"
+                                showbranch="12,podall"
                                 hidebranch=""
-                                value="Водопостачання та каналізація"
+                                value="Квартира/будинок"
                               />
                               <div class="quiz_variant">
-                                <img
-                                  src="img/quiz/water.jpg"
-                                />
-                                <span>Водопостачання та каналізація</span>
+                                <img src="img/quiz/water.jpg" />
+                                <span>Квартира/будинок</span>
                               </div>
                             </label>
 
@@ -295,13 +306,13 @@
                                 type="radio"
                                 hidden=""
                                 required=""
-                                showbranch="3,podall"
+                                showbranch="12,podall"
                                 hidebranch=""
-                                value="Клiмат контроль"
+                                value="Ресторан/кафе"
                               />
                               <div class="quiz_variant">
                                 <img src="img/quiz/climat.jpg" />
-                                <span>Клiмат контроль</span>
+                                <span>Ресторан/кафе</span>
                               </div>
                             </label>
                             <label for="quiz_input_29oyzp93bf2-4">
@@ -311,15 +322,48 @@
                                 type="radio"
                                 hidden=""
                                 required=""
-                                showbranch="6,podall"
+                                showbranch="12,podall"
                                 hidebranch=""
-                                value="Теплопостачання"
+                                value="Магазин/Торговий центр"
                               />
                               <div class="quiz_variant">
                                 <img src="img/quiz/warm.jpg" />
-                                <span>Теплопостачання</span>
+                                <span>Магазин/Торговий центр</span>
                               </div>
                             </label>
+                            <label for="quiz_input_29oyzp93bf2-5">
+                              <input
+                                id="quiz_input_29oyzp93bf2-5"
+                                name="quiz_input_29oyzp93bf2"
+                                type="radio"
+                                hidden=""
+                                required=""
+                                showbranch="12,podall"
+                                hidebranch=""
+                                value="Виробництво/Склад"
+                              />
+                              <div class="quiz_variant">
+                                <img src="img/quiz/warm.jpg" />
+                                <span>Виробництво/Склад</span>
+                              </div>
+                            </label>
+                             <label for="quiz_input_29oyzp93bf2-6">
+                              <input
+                                id="quiz_input_29oyzp93bf2-6"
+                                name="quiz_input_29oyzp93bf2"
+                                type="radio"
+                                hidden=""
+                                required=""
+                                showbranch="12,podall"
+                                hidebranch=""
+                                value="Інше"
+                              />
+                              <div class="quiz_variant">
+                                <img src="img/quiz/warm.jpg" />
+                                <span>Інше</span>
+                              </div>
+                            </label>
+     
                           </div>
                         </div>
                       </div>
@@ -328,13 +372,12 @@
                   <div
                     class="quiz_question"
                     autonext="true"
-                    branch="1"
+                    branch="3"
                     question-index="1"
                   >
                     <form action="#">
                       <p class="quiz_question-text">
-                        <span class="quiz_question-num">2</span>Тип
-                        водопостачання
+                        <span class="quiz_question-num">2</span>Які типи робіт цікавлять?
                       </p>
                       <div class="quiz_question_block">
                         <div class="quiz_question_inputs">
@@ -351,14 +394,14 @@
                                 required=""
                                 showbranch="4"
                                 hidebranch=""
-                                value="Зовнiшнє водопостачання та каналізація"
+                                value="Проектування"
                               />
                               <div class="quiz_variant">
                                 <img
                                   src="img/quiz/montag_narugnogo_vodoprovoda.jpg"
                                 />
                                 <span
-                                  >Зовнiшнє водопостачання та каналізація</span
+                                  >Проектування</span
                                 >
                               </div>
                             </label>
@@ -371,12 +414,12 @@
                                 required=""
                                 showbranch="5"
                                 hidebranch=""
-                                value="Внутрiшнє водопостачання та каналізація"
+                                value="Підбір та продаж обладнання"
                               />
                               <div class="quiz_variant">
                                 <img src="img/quiz/vodosnabzhenie-10-1.jpg" />
                                 <span
-                                  >Внутрiшнє водопостачання та каналізація</span
+                                  >Підбір та продаж обладнання</span
                                 >
                               </div>
                             </label>
@@ -389,17 +432,78 @@
                                 required=""
                                 showbranch="7"
                                 hidebranch=""
-                                value="Промислове водопостачання та каналізація"
+                                value="Монтаж"
                               />
                               <div class="quiz_variant">
                                 <img
                                   src="img/quiz/prom-vodosnabzhenie_08.jpg"
                                 />
                                 <span
-                                  >Промислове водопостачання та каналізація
+                                  >Монтаж
                                 </span>
                               </div>
                             </label>
+                             <label for="quiz_input_q3fjlp3n3w-4">
+                              <input
+                                id="quiz_input_q3fjlp3n3w-4"
+                                name="quiz_input_q3fjlp3n3w"
+                                type="radio"
+                                hidden=""
+                                required=""
+                                showbranch="7"
+                                hidebranch=""
+                                value="Сервісне обслуговування"
+                              />
+                              <div class="quiz_variant">
+                                <img
+                                  src="img/quiz/prom-vodosnabzhenie_08.jpg"
+                                />
+                                <span
+                                  >Сервісне обслуговування
+                                </span>
+                              </div>
+                            </label>
+                             <label for="quiz_input_q3fjlp3n3w-5">
+                              <input
+                                id="quiz_input_q3fjlp3n3w-5"
+                                name="quiz_input_q3fjlp3n3w"
+                                type="radio"
+                                hidden=""
+                                required=""
+                                showbranch="7"
+                                hidebranch=""
+                                value="Ремонт обладнання"
+                              />
+                              <div class="quiz_variant">
+                                <img
+                                  src="img/quiz/prom-vodosnabzhenie_08.jpg"
+                                />
+                                <span
+                                  >Ремонт обладнання
+                                </span>
+                              </div>
+                            </label>
+                             <label for="quiz_input_q3fjlp3n3w-6">
+                              <input
+                                id="quiz_input_q3fjlp3n3w-6"
+                                name="quiz_input_q3fjlp3n3w"
+                                type="radio"
+                                hidden=""
+                                required=""
+                                showbranch="7"
+                                hidebranch=""
+                                value="Інше"
+                              />
+                              <div class="quiz_variant">
+                                <img
+                                  src="img/quiz/prom-vodosnabzhenie_08.jpg"
+                                />
+                                <span
+                                  >Інше
+                                </span>
+                              </div>
+                            </label>
+                            
                           </div>
                         </div>
                       </div>
@@ -464,7 +568,7 @@
                   <div
                     class="quiz_question"
                     autonext="true"
-                    branch="3"
+                    branch=""
                     question-index="3"
                   >
                     <form action="#">
@@ -605,66 +709,104 @@
                   </div>
                   <div
                     class="quiz_question"
-                    autonext="true"
+                    
                     branch="12"
                     question-index="5"
                   >
                     <form action="#">
                       <p class="quiz_question-text">
-                        <span class="quiz_question-num">2</span>Тип об'єкту
+                        <span class="quiz_question-num">2</span>Які системи цікавлять?
                       </p>
                       <div class="quiz_question_block">
                         <div class="quiz_question_inputs">
                           <div
                             class="quiz_variants_group row2 md:row3"
-                            required="radio"
+                            required="checkbox"
                           >
                             <label for="quiz_input_175csbctz6o-1">
                               <input
                                 id="quiz_input_175csbctz6o-1"
                                 name="quiz_input_175csbctz6o"
-                                type="radio"
+                                type="checkbox"
                                 hidden=""
                                 required=""
-                                showbranch="16,pod3d"
+                                showbranch="6,podall"
                                 hidebranch=""
-                                value="Промислові об'єкти"
+                                value="Опалення"
+                                
                               />
                               <div class="quiz_variant">
                                 <img src="img/quiz/638f08e6eaa00.jpg" />
-                                <span>Промислові об'єкти</span>
+                                <span>Опалення</span>
                               </div>
                             </label>
                             <label for="quiz_input_175csbctz6o-2">
                               <input
                                 id="quiz_input_175csbctz6o-2"
                                 name="quiz_input_175csbctz6o"
-                                type="radio"
+                                type="checkbox"
                                 hidden=""
                                 required=""
-                                showbranch="16,pod3d"
+                                showbranch="1,pod3d"
                                 hidebranch=""
-                                value="Адміністративно-побутові об'єкти"
+                                value="Вентиляція"
+                                
                               />
                               <div class="quiz_variant">
                                 <img src="img/quiz/638f08c5ceeb6.jpg" />
-                                <span>Адміністративно-побутові об'єкти</span>
+                                <span>Вентиляція</span>
                               </div>
                             </label>
                             <label for="quiz_input_175csbctz6o-3">
                               <input
                                 id="quiz_input_175csbctz6o-3"
                                 name="quiz_input_175csbctz6o"
-                                type="radio"
+                                type="checkbox"
                                 hidden=""
                                 required=""
-                                showbranch="16,pod3d"
+                                showbranch="1,pod3d"
                                 hidebranch=""
-                                value="Житлові об'єкти"
+                                value="Кондиціонування"
+                                
                               />
                               <div class="quiz_variant">
                                 <img src="img/quiz/638f084e08651.jpg" />
-                                <span>Житлові об'єкти</span>
+                                <span>Кондиціонування</span>
+                              </div>
+                            </label>
+                             <label for="quiz_input_175csbctz6o-4">
+                              <input
+                                id="quiz_input_175csbctz6o-4"
+                                name="quiz_input_175csbctz6o"
+                                type="checkbox"
+                                hidden=""
+                                required=""
+                                showbranch="1,pod3d"
+                                hidebranch=""
+                                value="Водопостачання"
+                                
+                              />
+                              <div class="quiz_variant">
+                                <img src="img/quiz/638f084e08651.jpg" />
+                                <span>Водопостачання</span>
+                              </div>
+                            </label>
+                            <label for="quiz_input_175csbctz6o-5">
+                              <input
+                                id="quiz_input_175csbctz6o-5"
+                                name="quiz_input_175csbctz6o"
+                                type="checkbox"
+                                hidden=""
+                                required=""
+                                showbranch="1,pod3d"
+                                hidebranch=""
+                                value="Каналізація"
+                                
+                                
+                              />
+                              <div class="quiz_variant">
+                                <img src="img/quiz/638f084e08651.jpg" />
+                                <span>Каналізація</span>
                               </div>
                             </label>
                           </div>
@@ -829,13 +971,12 @@
                   <div
                     class="quiz_question"
                     autonext="true"
-                    branch="9"
+                    branch="1"
                     question-index="10"
                   >
                     <form action="#">
                       <p class="quiz_question-text">
-                        <span class="quiz_question-num">3</span>Орієнтовна
-                        опалювальна площа
+                        <span class="quiz_question-num">2</span>Площа об'єкту
                       </p>
                       <div class="quiz_question_block">
                         <div class="quiz_question_inputs">
@@ -843,7 +984,7 @@
                             class="quiz_question_range-input"
                             for="quiz_input_1sh1dygsk1n"
                           >
-                            <div>Вкажiть орiєнтовну опалювальна площа</div>
+                            <div>Вкажiть орiєнтовну площу об'єкту</div>
                             <input
                               id="quiz_input_1sh1dygsk1n"
                               name="quiz_input_1sh1dygsk1n"
@@ -852,6 +993,7 @@
                               max="10000"
                               step="50"
                               value="100"
+                              
                             />
                             <div class="quiz_question_range-val">
                               <span class="quiz_question_range-value-text"
@@ -867,7 +1009,7 @@
                   <div
                     class="quiz_question"
                     autonext="true"
-                    branch="13"
+                    showbranch="12,pod3d"
                     question-index="11"
                   >
                     <form action="#">
@@ -890,6 +1032,7 @@
                               max="10000"
                               step="50"
                               value="100"
+                              showbranch="12,pod3d"
                             />
                             <div class="quiz_question_range-val">
                               <span class="quiz_question_range-value-text"
@@ -907,6 +1050,7 @@
                     autonext="true"
                     branch="16"
                     question-index="12"
+                   
                   >
                     <form action="#">
                       <p class="quiz_question-text">
@@ -928,6 +1072,7 @@
                               max="10000"
                               step="50"
                               value="100"
+                              
                             />
                             <div class="quiz_question_range-val">
                               <span class="quiz_question_range-value-text"
@@ -983,6 +1128,7 @@
                     autonext="true"
                     branch="11"
                     question-index="14"
+                    
                   >
                     <form action="#">
                       <p class="quiz_question-text">
@@ -1004,6 +1150,7 @@
                               max="10000"
                               step="50"
                               value="100"
+                           
                             />
                             <div class="quiz_question_range-val">
                               <span class="quiz_question_range-value-text"
@@ -1016,7 +1163,7 @@
                       </div>
                     </form>
                   </div>
-                 
+
                   <div
                     class="quiz_question"
                     autonext="true"
@@ -1063,14 +1210,494 @@
                   <button class="quiz_button next">Далi</button>
                   <button class="quiz_button send hidden">Вiдправити</button>
                 </div>
+              </div> -->
+              <style>
+                .form-container {
+                  width: 900px;
+                  height: 100%;
+                  margin: 20px auto;
+                  padding: 20px;
+                  border: 1px solid #ccc;
+                  border-radius: 8px;
+                  background-color: #fff;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+                .form-step {
+                  height: 0;
+                  overflow: hidden;
+                  opacity: 0;
+                  transition: height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+                }
+
+                .form-step.active {
+                  height: auto;
+                  opacity: 1;
+                }
+                .form-btn {
+                  padding: 10px 20px;
+                  font-size: 18px;
+                  cursor: pointer;
+                  background-color: #4caf50;
+                  color: #fff;
+                  border: none;
+                  border-radius: 4px;
+                  margin-right: 10px;
+                  transition: background-color 0.3s ease-in-out;
+                  margin-left: auto;
+                  margin-right: auto;
+                  margin-top: 30px;
+                }
+                .form-btn:hover {
+                  background-color: #45a049;
+                }
+                label {
+                  display: block;
+                  margin-bottom: 10px;
+                  font-size: 22px;
+                }
+                input[type="radio"],
+                input[type="checkbox"] {
+                  margin-right: 5px;
+                }
+                input[type="range"] {
+                  width: 100%;
+                }
+                .form-title {
+                  color: #333;
+                  text-align: center;
+                  font-size: 30px;
+                  margin-bottom: 30px;
+                  margin-top: 30px;
+                }
+                .form-step.step5 {
+                  height: 0;
+                  overflow: hidden;
+                  opacity: 0;
+                  transition: height 0.8s ease-in-out, opacity 0.8s ease-in-out;
+                }
+
+                .form-step.step5.active {
+                  height: auto;
+                  opacity: 1;
+                }
+
+                .form-step.step5 label {
+                  display: block;
+                  margin-bottom: 10px;
+                }
+
+                .form-step.step5 input {
+                  width: 100%;
+                  padding: 8px;
+                  margin-bottom: 10px;
+                  box-sizing: border-box;
+                }
+                .steps-container {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-direction: column;
+                }
+                .labels-container {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  flex-wrap: wrap;
+                  gap: 30px;
+                }
+              </style>
+              <div class="form-container">
+                <div class="steps-container">
+                  <div id="stepCounter">Крок 1</div>
+                  <!-- Крок 1 -->
+                  <div class="form-step step1 active">
+                    <h2 class="form-title">Тип об'єкту</h2>
+                    <div class="labels-container">
+                      <label>
+                        <input
+                          type="radio"
+                          name="objectType"
+                          value="Квартира/будинок"
+                        />
+                        Квартира/будинок
+                      </label>
+                      <label>
+                        <input
+                          type="radio"
+                          name="objectType"
+                          value="Ресторан/Кафе"
+                        />
+                        Ресторан/Кафе
+                      </label>
+                      <label>
+                        <input
+                          type="radio"
+                          name="objectType"
+                          value="Магазин/Торговий центр"
+                        />
+                        Магазин/Торговий центр
+                      </label>
+                      <label>
+                        <input
+                          type="radio"
+                          name="objectType"
+                          value="Розважальний комплекс"
+                        />
+                        Розважальний комплекс
+                      </label>
+                      <label>
+                        <input
+                          type="radio"
+                          name="objectType"
+                          value="Виробництво/склад"
+                        />
+                        Виробництво/склад
+                      </label>
+                    </div>
+                    <button
+                      class="btn form-btn"
+                      onclick="nextStep(2)"
+                      type="button"
+                    >
+                      Далі
+                    </button>
+                  </div>
+
+                  <!-- Крок 2 -->
+                  <div class="steps-container">
+                    <div class="form-step step2">
+                      <h2 class="form-title">Площа об'єкту</h2>
+                      <label for="areaRange"
+                        >Площа об'єкту: <span id="areaValue">0</span> м²</label
+                      >
+                      <input
+                        type="range"
+                        id="areaRange"
+                        min="0"
+                        max="1000"
+                        value="0"
+                        oninput="updateAreaValue(this.value)"
+                      />
+                      <button
+                        class="btn form-btn"
+                        onclick="prevStep(1)"
+                        type="button"
+                      >
+                        Назад
+                      </button>
+                      <button
+                        class="btn form-btn"
+                        onclick="nextStep(3)"
+                        type="button"
+                      >
+                        Далі
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Крок 3 -->
+                  <div class="steps-container">
+                    <div class="form-step step3">
+                      <h2 class="form-title">Типи систем</h2>
+                      <div class="labels-container">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="systems"
+                            value="Опалення"
+                          />
+                          Опалення
+                          <div></div>
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="systems"
+                            value="Вентиляція"
+                          />
+                          Вентиляція
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="systems"
+                            value="Вентиляція"
+                          />
+                          Кондиціонування
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="systems"
+                            value="Водопостачання"
+                          />
+                          Водопостачання
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="systems"
+                            value="sewerage"
+                          />
+                          Каналізація
+                        </label>
+                      </div>
+
+                      <button
+                        class="btn form-btn"
+                        onclick="prevStep(2)"
+                        type="button"
+                      >
+                        Назад
+                      </button>
+                      <button
+                        class="btn form-btn"
+                        onclick="nextStep(4)"
+                        type="button"
+                      >
+                        Далі
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Крок 4 -->
+                  <div class="steps-container">
+                    <div class="form-step step4">
+                      <h2 class="form-title">Типи робіт</h2>
+                      <div class="labels-container">
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="workTypes"
+                            value="Проектування"
+                          />
+                          Проектування
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="workTypes"
+                            value="Підбір та
+          продаж обладнання"
+                          />
+                          Підбір та продаж обладнання
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="workTypes"
+                            value="Монтаж"
+                          />
+                          Монтаж
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="workTypes"
+                            value="Сервісне
+          обслуговування"
+                          />
+                          Сервісне обслуговування
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="workTypes"
+                            value="Ремонт
+          обладнання"
+                          />
+                          Ремонт обладнання
+                        </label>
+                        <label>
+                          <input
+                            type="checkbox"
+                            name="workTypes"
+                            value="Інше"
+                          />
+                          Інше
+                        </label>
+                      </div>
+
+                      <button
+                        class="btn form-btn"
+                        onclick="prevStep(3)"
+                        type="button"
+                      >
+                        Назад
+                      </button>
+                      <button
+                        class="btn form-btn"
+                        onclick="nextStep(5)"
+                        type="button"
+                      >
+                        Далі
+                      </button>
+                    </div>
+                  </div>
+                  <div class="steps-container">
+                    <div class="form-step step5">
+                      <h2 class="form-title">Введіть ім'я та номер телефону</h2>
+                      <form
+                        id="submitForm"
+                        onsubmit="event.preventDefault(); submitForm();"
+                      >
+                        <label for="name">Ім'я:</label>
+                        <input type="text" id="name" name="name" required />
+
+                        <label for="phone">Номер телефону:</label>
+                        <input type="tel" id="phone" name="phone" required />
+
+                        <button
+                          class="btn form-btn"
+                          onclick="prevStep(4)"
+                          type="button"
+                        >
+                          Назад
+                        </button>
+                        <button class="btn form-btn" type="submit">
+                          Відправити
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
               </div>
+
+              <script>
+                let currentStep = 1;
+
+                function nextStep(step) {
+                  document
+                    .querySelector(`.step${currentStep}`)
+                    .classList.remove("active");
+                  currentStep = step;
+                  updateStepCounter();
+                  document
+                    .querySelector(`.step${currentStep}`)
+                    .classList.add("active");
+                }
+
+                function prevStep(step) {
+                  document
+                    .querySelector(`.step${currentStep}`)
+                    .classList.remove("active");
+                  currentStep = step;
+                  updateStepCounter();
+                  document
+                    .querySelector(`.step${currentStep}`)
+                    .classList.add("active");
+                }
+
+                function updateAreaValue(value) {
+                  document.getElementById("areaValue").innerText = value;
+                }
+                function updateStepCounter() {
+                  document.getElementById(
+                    "stepCounter"
+                  ).innerText = `Крок ${currentStep}/5`;
+                }
+                function submitForm() {
+                  // Отримайте значення з форми і обробіть їх за потреби
+                  const formData = {
+                    name: document.getElementById("name").value,
+                    phone: document.getElementById("phone").value,
+                    objectType: document.querySelector(
+                      'input[name="objectType"]:checked'
+                    ).value,
+                    area: document.getElementById("areaRange").value,
+                    systems: Array.from(
+                      document.querySelectorAll('input[name="systems"]:checked')
+                    ).map((input) => input.value),
+                    workTypes: Array.from(
+                      document.querySelectorAll(
+                        'input[name="workTypes"]:checked'
+                      )
+                    ).map((input) => input.value),
+                  };
+
+                  // Отримати токен та чат_id зі свого бота в телеграмі
+                  const TOKEN =
+                    "6956288167:AAHuR7oOShLoxF1MEcaLUOj_gk_TouvRYIo";
+                  const CHAT_ID = "-1001533686542";
+                  const URL = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+
+                  // Створити текстовий повідомлення з отриманими даними
+                  let message = `Заявка з сайту!\n\n`;
+                  message += `Ім'я: ${formData.name}\n`;
+                  message += `Номер телефону: ${formData.phone}\n`;
+                  message += `Тип об'єкту: ${formData.objectType}\n`;
+                  message += `Площа об'єкту: ${formData.area} м²\n`;
+                  message += `Типи систем: ${formData.systems.join(", ")}\n`;
+                  message += `Типи робіт: ${formData.workTypes.join(", ")}\n`;
+
+                  // Відправити повідомлення в телеграм
+                  fetch(URL, {
+                    method: "POST",
+                    headers: {
+                      "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                      chat_id: CHAT_ID,
+                      parse_mode: "html",
+                      text: `${message}`,
+                    }),
+                  })
+                    .then((response) => {
+                      if (!response.ok) {
+                        throw new Error("Network response was not ok");
+                      }
+                      // Очистити дані форми або виконати інші дії при необхідності
+                      // Наприклад, ви можете перенаправити користувача на іншу сторінку
+                      // або вивести повідомлення про успішну відправку
+                      alert("Форма відправлена!");
+                      document.getElementById("areaRange").value = 0; // Скинути значення площі
+                      document
+                        .querySelectorAll('input[name="objectType"]')
+                        .forEach((input) => (input.checked = false));
+                      document
+                        .querySelectorAll('input[name="systems"]')
+                        .forEach((input) => (input.checked = false));
+                      document
+                        .querySelectorAll('input[name="workTypes"]')
+                        .forEach((input) => (input.checked = false));
+                      hideAllSteps();
+                      resetForm(); // Очистити форму або виконати інші дії
+                      currentStep = 1;
+                      updateStepCounter();
+                      document.querySelector(".step1").classList.add("active");
+                    })
+                    .catch((error) => {
+                      console.log(error);
+                    });
+                }
+                function resetForm() {
+                  // Очистити дані форми або виконати інші дії для скидання форми
+                  document.getElementById("areaRange").value = 0;
+                  document
+                    .querySelectorAll('input[name="objectType"]')
+                    .forEach((input) => (input.checked = false));
+                  document
+                    .querySelectForAll('input[name="systems"]')
+                    .forEach((input) => (input.checked = false));
+                  document
+                    .querySelectorAll('input[name="workTypes"]')
+                    .forEach((input) => (input.checked = false));
+                }
+                function hideAllSteps() {
+                  // Приховати всі кроки форми
+                  const formSteps = document.querySelectorAll(".form-step");
+                  formSteps.forEach((step) => {
+                    step.classList.remove("active");
+                  });
+                }
+              </script>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="about-us" class="ptb-60" >
+    <section id="about-us" class="ptb-60">
       <div class="container">
         <h3 class="about-us-title">Про нас</h3>
         <div class="about-text-container">
@@ -1085,61 +1712,70 @@
               надійних брендів, перевірених часом, виконуємо монтаж та
               пусконалагодження вентиляційної системи.
             </p>
-        </div>
           </div>
         </div>
       </div>
     </section>
     <section>
-      
       <div class="container">
-        <h3 class="coop-title">
-          Як почати з нами співпрацю
-        </h3>
+        <h3 class="coop-title">Як почати з нами співпрацю</h3>
         <div class="center-coop-cards">
-         <div class="card-container">
-          <img class="card-photo" src="img/cooperation/1.png" >
-            
-          </img>
-          <p class="card-text">
-           <strong> Подача заявки з сайту</strong> або дзвінок
-          </p>
+          <div class="card-container">
+            <img class="card-photo" src="img/cooperation/1.png" />
+            <p class="card-text">
+              <strong> Подача заявки з сайту</strong> або дзвінок
+            </p>
+          </div>
+          <div class="card-container">
+            <img
+              class="card-photo"
+              src="img/cooperation/2.png"
+              width="150px"
+              height="150px"
+            />
+            <p class="card-text">
+              Огляд, <strong>оцінка об'єкту,</strong> складання рішень та
+              кошторисів
+            </p>
+          </div>
+          <div class="card-container">
+            <img
+              class="card-photo"
+              src="img/cooperation/3.png"
+              width="150px"
+              height="150px"
+            />
+
+            <p class="card-text">
+              <strong>Організація</strong> закупки і доставка матеріалів, та
+              усіх робіт
+            </p>
+          </div>
+          <div class="card-container">
+            <img
+              class="card-photo"
+              src="img/cooperation/4.png"
+              width="150px"
+              height="150px"
+            />
+
+            <p class="card-text">
+              <strong>Монтаж</strong> з урахуванням Ваших потреб
+            </p>
+          </div>
+          <div class="card-container">
+            <img
+              class="card-photo"
+              src="img/cooperation/5.png"
+              width="150px"
+              height="150px"
+            />
+
+            <p class="card-text">
+              Ввід в експлуатацію і <strong>обслуговування</strong>
+            </p>
+          </div>
         </div>
-        <div class="card-container">
-          <img class="card-photo" src="img/cooperation/2.png" width="150px" height="150px">
-            
-          </img>
-          <p class="card-text">
-            Огляд, <strong>оцінка об'єкту,</strong> складання рішень та кошторисів
-          </p>
-        </div>
-         <div class="card-container">
-          <img class="card-photo" src="img/cooperation/3.png" width="150px" height="150px">
-            
-          </img>
-          <p class="card-text">
-            <strong>Організація</strong> закупки і доставка матеріалів, та усіх робіт
-          </p>
-        </div>
-         <div class="card-container">
-          <img class="card-photo" src="img/cooperation/4.png" width="150px" height="150px">
-            
-          </img>
-          <p class="card-text">
-            <strong>Монтаж</strong> з урахуванням Ваших потреб
-          </p>
-        </div>
-         <div class="card-container">
-          <img class="card-photo" src="img/cooperation/5.png" width="150px" height="150px">
-            
-          </img>
-          <p class="card-text">
-            Ввід в експлуатацію і <strong>обслуговування</strong>
-          </p>
-        </div>
-      </div>
-        
-        
       </div>
     </section>
 
@@ -1238,7 +1874,6 @@
     </section> -->
 
     <section>
-      
       <div class="gallery">
         <div class="container">
           <h2 class="section-title section-title--black fade_in">
@@ -1317,7 +1952,7 @@
                 background-size: cover;
               "
             ></a>
-  
+
             <a
               href="img/works/12.png"
               data-fancybox="gallery"
@@ -1345,7 +1980,7 @@
                 background-size: cover;
               "
             ></a>
-             <a
+            <a
               href="img/works/18.jpg"
               data-fancybox="gallery"
               class="gallery__item hide"
@@ -1354,7 +1989,7 @@
                 background-size: cover;
               "
             ></a>
-             <a
+            <a
               href="img/works/19.jpg"
               data-fancybox="gallery"
               class="gallery__item hide"
@@ -1363,7 +1998,7 @@
                 background-size: cover;
               "
             ></a>
-             <a
+            <a
               href="img/works/20.jpg"
               data-fancybox="gallery"
               class="gallery__item hide"
@@ -1372,7 +2007,7 @@
                 background-size: cover;
               "
             ></a>
-             <a
+            <a
               href="img/works/22.jpg"
               data-fancybox="gallery"
               class="gallery__item hide"
@@ -1381,7 +2016,7 @@
                 background-size: cover;
               "
             ></a>
-             <a
+            <a
               href="img/works/22.jpg"
               data-fancybox="gallery"
               class="gallery__item hide"
@@ -1550,9 +2185,7 @@
                 style="float: left"
                 ><img src="img/facebook.png"
               /></a>
-              <a
-                href="https://t.me/+380689142075"
-                target="_blank"
+              <a href="https://t.me/+380689142075" target="_blank"
                 ><img src="img/telegram.png"
               /></a>
             </div>
@@ -1863,8 +2496,7 @@
         <div class="modal-video"></div>
       </div>
     </div>
-    
-    
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
     <script src="js/ui.js"></script>
@@ -1885,7 +2517,7 @@
       });
     </script>
     <script>
-  AOS.init();
-</script>
+      AOS.init();
+    </script>
   </body>
 </html>

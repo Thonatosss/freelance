@@ -224,7 +224,7 @@ button {
   text-transform: uppercase;
   background: #173647;
   /* border: solid 2px white; */
-  border-radius: 2px;
+  border-radius: 10px;
   color: #fff;
   cursor: pointer;
   text-align: center;
@@ -613,6 +613,7 @@ button {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  
 }
 
 .btn-main-wrap .btn-main {
@@ -664,11 +665,11 @@ button {
   margin-top: 7vh;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  gap: 50px;
 }
 
 .first-screen-content-adv__item {
-  width: 23%;
+  width: 33%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -686,12 +687,12 @@ button {
   margin-left: 0.8vw;
   text-transform: uppercase;
   font-family: "TT Travels";
-  font-size: 0.7vw;
+  font-size: 18px;
   line-height: 1.34;
 }
 
 .first-screen-content-adv__item img {
-  width: 2.3vw;
+  width: 4vw;
   filter: hue-rotate(48deg);
 }
 
@@ -766,7 +767,7 @@ button {
   -ms-flex-pack: center;
   justify-content: center;
   /*color: #212121;*/
-  border-radius: 2px;
+  border-radius: 10px;
   cursor: pointer;
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
@@ -818,14 +819,15 @@ button {
 .section-title {
   font-family: "TT Travels";
   font-weight: 900;
-  font-size: 2.395vw;
+  font-size: 38px;
+  
   line-height: 1.304em;
-  margin-bottom: 6vh;
+  margin-bottom: 1vh;
   text-align: center;
 }
 
 .section-title--black {
-  color: #222222;
+  color: #173647;
 }
 
 .section-title--white {
@@ -6490,14 +6492,12 @@ section#about-us p {
 .first-screen .socials-items__item {
   margin-left: 0;
   position: absolute;
-  top: 70px;
-  right: 0px;
+  top: 80px;
+  right: 20px;
 }
 
 @media (max-width: 567px) {
-  .header-inner-logo {
-    /*width: 100%;*/
-  }
+ 
   .first-screen .socials-items__item {
     top: 75px;
     margin-left: 0;
@@ -6949,3 +6949,12 @@ section#about-us p {
   font-size: 18px;
   font-weight: normal;
 }
+
+.hero-descr{
+      font-size: 30px;
+    }
+@media screen and (max-width: 991px) {
+    .hero-descr{
+      font-size: 18px;
+    }
+  }
