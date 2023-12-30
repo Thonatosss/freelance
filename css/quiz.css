@@ -40,7 +40,6 @@
 .quiz *:after {
   box-sizing: border-box;
   font-family: "TT Travels";
-  max-width: 100%;
 }
 .quiz_heading {
   width: 100%;
