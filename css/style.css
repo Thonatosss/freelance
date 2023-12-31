@@ -16,7 +16,7 @@ select {
 }
 
 section {
-  padding: 6vw 0 8vw;
+  padding-bottom: 30px;
   position: relative;
 }
 
@@ -6961,7 +6961,7 @@ section#about-us p {
 
 .coop-section {
   padding-bottom: 40px;
-  background-image: url("../img/newIcons/about-us.jpg");
+  background-image: url("../img/newIcons/coop-background.jpg");
   background-size:cover;
 }
 .coop-list{
@@ -7000,7 +7000,7 @@ section#about-us p {
 }
 @media screen and (min-width: 768px) {
   .coop-item-text{
-    width: 160px;
+    width: 170px;
     height: 90px;
   } 
 }
@@ -7011,12 +7011,12 @@ section#about-us p {
     margin-bottom: 100px;
   }
   .coop-item-text{
-    width: 210px;
+    width: 206px;
     height: 75px;
     font-size: 16px;
   }
   .coop-list{
-    gap: 30px;
+    gap: 40px;
   }
   .coop-img{
     width: 90px;
@@ -7025,6 +7025,14 @@ section#about-us p {
   .deal-img{
     width: 130px;
     height: 130px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .coop-item-text{
+    width: 300px;
+    height: 75px;
+    font-size: 18px;
+    margin-bottom: 80px;
   }
 }
 .project-card{
@@ -7097,6 +7105,10 @@ section#about-us p {
   height: 50px;
   margin-bottom: 20px;
 }
+.glider-track{
+   gap: 10px;
+ }
+
 @media screen and (min-width: 768px) {
   .glider-track{
     gap: 30px;
@@ -7109,11 +7121,8 @@ section#about-us p {
     margin-bottom: 80px;
   }
   .done-projects-img{
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   margin-bottom: 40px;
 }
 }
- .glider-track{
-    gap: 10px;
-  }
