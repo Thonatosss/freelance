@@ -613,7 +613,6 @@ button {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  
 }
 
 .btn-main-wrap .btn-main {
@@ -820,7 +819,7 @@ button {
   font-family: "TT Travels";
   font-weight: 900;
   font-size: 38px;
-  
+
   line-height: 1.304em;
   margin-bottom: 1vh;
   text-align: center;
@@ -3775,11 +3774,15 @@ button {
 /* ---------- #about-us ----------- */
 section#about-us {
   padding-bottom: 40px;
+  background-image: url("../img/newIcons/about-us.jpg");
+  background-size: cover;
+}
+.layer {
+  background-color: #173647;
 }
 section#about-us img {
   border-radius: 30%;
   margin-top: 0px;
-  border: 10px solid #f3f3f3;
 }
 section#about-us .sub-img-box {
   margin: 0;
@@ -3858,7 +3861,8 @@ section#about-us .one-vhar span {
 .about-us-title {
   text-align: center;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 22px;
+  color: white;
 }
 @media screen and (min-width: 1200px) {
   .about-us-title {
@@ -5972,9 +5976,6 @@ section#about-us p {
     .third-screen-content-row__text__title:after {
     display: none;
   }
-  br {
-    display: none;
-  }
   .third-screen-content-desc {
     margin-top: 3rem;
   }
@@ -6497,7 +6498,6 @@ section#about-us p {
 }
 
 @media (max-width: 567px) {
- 
   .first-screen .socials-items__item {
     top: 75px;
     margin-left: 0;
@@ -6950,11 +6950,170 @@ section#about-us p {
   font-weight: normal;
 }
 
-.hero-descr{
-      font-size: 30px;
-    }
+.hero-descr {
+  font-size: 30px;
+}
 @media screen and (max-width: 991px) {
-    .hero-descr{
-      font-size: 18px;
-    }
+  .hero-descr {
+    font-size: 18px;
+  }
+}
+
+.coop-section {
+  padding-bottom: 40px;
+  background-image: url("../img/newIcons/about-us.jpg");
+  background-size:cover;
+}
+.coop-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 50px;
+}
+.coop-img{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 10px;
+}
+.coop-item-text{
+  font-size: 14px;
+  padding: 5px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+   width: 150px;
+  height: 110px;
+}
+.coop-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+ 
+}
+.coop-title{
+  color: white;
+  font-size: 18px;
+}
+@media screen and (min-width: 768px) {
+  .coop-item-text{
+    width: 160px;
+    height: 90px;
+  } 
+}
+
+@media screen and (min-width: 1200px) {
+  .coop-title{
+    font-size: 34px;
+    margin-bottom: 100px;
+  }
+  .coop-item-text{
+    width: 210px;
+    height: 75px;
+    font-size: 16px;
+  }
+  .coop-list{
+    gap: 30px;
+  }
+  .coop-img{
+    width: 90px;
+    height: 90px;
+  }
+  .deal-img{
+    width: 130px;
+    height: 130px;
+  }
+}
+.project-card{
+  padding: 10px;
+  background-color: #e8ecec;
+  border-radius: 10px;
+}
+.main-card-photo{
+  width: 100%;
+  height: 80px;
+  border-radius: 8px;
+
+}
+.project-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.project-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+}
+
+.project-description{
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.project-photo{
+  width: 100%;
+  height: 50px;
+  border-radius: 8px;
+}
+.project-list{
+  margin-top: 20px;
+  width: 100%;
+}
+.done-projects-title{
+  font-size: 18px;
+  color: #173647;
+  text-align: center;
+  margin-bottom: 30px;
+  
+}
+.done-projects-container{
+  background-color: white;
+  margin-top: 80px;
+  padding: 40px;
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.marked-text{
+  color: #173647;
+  font-weight: 600;
+}
+.glider-dot.active{
+  background: #173647 !important;
+}
+.done-projects-img{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 768px) {
+  .glider-track{
+    gap: 30px;
+  }
+  .project-description{
+    font-size: 18px;
+  }
+  .done-projects-title{
+    font-size: 32px;
+    margin-bottom: 80px;
+  }
+  .done-projects-img{
+  width: 80px;
+  height: 80px;
+  margin-bottom: 40px;
+}
+}
+ .glider-track{
+    gap: 10px;
   }
