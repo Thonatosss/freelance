@@ -218,8 +218,8 @@ button {
 #butt {
   /*margin-top: 5px;*/
   padding: 10px 10px;
-  font-size: 14px;
-  font-weight: 700;
+  font-size: 30px;
+  font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
   background: #173647;
@@ -556,7 +556,7 @@ button {
 }
 
 .first-screen-content {
-  width: 76.509%;
+  width: 100%;
 }
 
 .first-screen-content h1 {
@@ -665,6 +665,8 @@ button {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   gap: 50px;
+  justify-content: center;
+  align-items: center;
 }
 
 .first-screen-content-adv__item {
@@ -3862,11 +3864,13 @@ section#about-us .one-vhar span {
   text-align: center;
   font-weight: 700;
   font-size: 22px;
-  color: white;
+  color: #173647;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .about-us-title {
     font-size: 34px;
+    margin-bottom: 50px;
   }
 }
 .col-lg-7 {
@@ -5837,7 +5841,7 @@ section#about-us p {
   }
   .first-screen-content-adv__item p {
     padding-left: 1rem;
-    font-size: 1rem;
+    font-size: 16px;
   }
   .first-screen-content-adv__item:first-child {
     /* width: 33%; */
@@ -6962,9 +6966,9 @@ section#about-us p {
 .coop-section {
   padding-bottom: 40px;
   background-image: url("../img/newIcons/coop-background.jpg");
-  background-size:cover;
+  background-size: cover;
 }
-.coop-list{
+.coop-list {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6972,88 +6976,86 @@ section#about-us p {
   gap: 20px;
   margin-top: 50px;
 }
-.coop-img{
+.coop-img {
   width: 60px;
   height: 60px;
   margin-bottom: 10px;
 }
-.coop-item-text{
+.coop-item-text {
   font-size: 14px;
   padding: 5px;
   background-color: white;
   border-radius: 8px;
   text-align: center;
   font-weight: 500;
-   width: 150px;
+  width: 150px;
   height: 110px;
 }
-.coop-item{
+.coop-item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
- 
 }
-.coop-title{
+.coop-title {
   color: white;
   font-size: 18px;
 }
 @media screen and (min-width: 768px) {
-  .coop-item-text{
+  .coop-item-text {
     width: 170px;
     height: 90px;
-  } 
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  .coop-title{
+  .coop-title {
     font-size: 34px;
     margin-bottom: 100px;
   }
-  .coop-item-text{
+  .coop-item-text {
     width: 206px;
     height: 75px;
     font-size: 16px;
   }
-  .coop-list{
+  .coop-list {
     gap: 40px;
   }
-  .coop-img{
+  .coop-img {
     width: 90px;
     height: 90px;
   }
-  .deal-img{
+  .deal-img {
     width: 130px;
     height: 130px;
   }
 }
 @media screen and (min-width: 1500px) {
-  .coop-item-text{
+  .coop-item-text {
     width: 300px;
     height: 75px;
     font-size: 18px;
     margin-bottom: 80px;
   }
 }
-.project-card{
+.project-card {
   padding: 10px;
   background-color: #e8ecec;
   border-radius: 10px;
 }
-.main-card-photo{
+.main-card-photo {
   width: 100%;
   height: 80px;
   border-radius: 8px;
-
 }
-.project-item{
+.project-item {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
   width: 100%;
 }
-.project-card{
+.project-card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7061,29 +7063,28 @@ section#about-us p {
   width: 200px;
 }
 
-.project-description{
+.project-description {
   text-align: center;
   margin-top: 10px;
   font-size: 14px;
   font-weight: 400;
 }
-.project-photo{
+.project-photo {
   width: 100%;
   height: 50px;
   border-radius: 8px;
 }
-.project-list{
+.project-list {
   margin-top: 20px;
   width: 100%;
 }
-.done-projects-title{
+.done-projects-title {
   font-size: 18px;
   color: #173647;
   text-align: center;
   margin-bottom: 30px;
-  
 }
-.done-projects-container{
+.done-projects-container {
   background-color: white;
   margin-top: 80px;
   padding: 40px;
@@ -7093,36 +7094,132 @@ section#about-us p {
   align-items: center;
   flex-direction: column;
 }
-.marked-text{
+.marked-text {
   color: #173647;
   font-weight: 600;
 }
-.glider-dot.active{
+.glider-dot.active {
   background: #173647 !important;
 }
-.done-projects-img{
+.done-projects-img {
   width: 50px;
   height: 50px;
   margin-bottom: 20px;
 }
-.glider-track{
-   gap: 10px;
- }
+.glider-track {
+  gap: 10px;
+}
 
 @media screen and (min-width: 768px) {
-  .glider-track{
+  .glider-track {
     gap: 30px;
   }
-  .project-description{
+  .project-description {
     font-size: 18px;
   }
-  .done-projects-title{
+  .done-projects-title {
     font-size: 32px;
     margin-bottom: 80px;
   }
-  .done-projects-img{
-  width: 90px;
-  height: 90px;
-  margin-bottom: 40px;
+  .done-projects-img {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 40px;
+  }
 }
+/* ABOUT US SECTION */
+
+.about-us-img {
+  width: 200px;
+  height: 200px;
+}
+
+.about-us-item {
+  text-align: left;
+  position: relative;
+  padding: 20px;
+  font-size: 13px;
+  background-color: rgb(232, 236, 236);
+  border-radius: 6px;
+}
+.about-us-num {
+  color: white;
+  font-size: 16px;
+  z-index: 5;
+}
+.num-container {
+  background-color: #173647;
+  position: absolute;
+  padding: 3px 7px;
+  text-align: center;
+  display: block;
+  top: 5px;
+  left: 5px;
+  border-radius: 2px;
+}
+.about-us-info {
+  margin-top: 12px;
+  font-size: 15px;
+  color: #173647;
+}
+
+.to-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-us-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  
+}
+@media screen and (min-width: 768px) {
+  .about-us-list {
+    display: flex;
+    justify-content: space-between; /* Change to space-between to leave space between cards */
+    align-items: stretch; /* Maintain equal height for all cards */
+    flex-wrap: wrap;
+    flex-direction:inherit;
+    gap: 0px;
+  }
+  .about-us-item {
+    width: calc(50% - 15px); /* 50% width with a margin of 15px between cards */
+    margin-top: 20px;
+    gap: 30px;
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+  }
+  
+  .bottom-dash {
+    border-bottom: 0;
+  }
+  .about-us-img {
+    height: 300px;
+  }
+  .l-mg {
+    margin-left: 30px;
+  }
+  .about-us-section {
+    margin-top: 100px;
+  }
+  .about-us-num{
+    font-size: 16px;
+  }
+  .about-us-info{
+    font-size: 16px;
+    margin-top: 20px;
+  }
+}
+@media  screen and (min-width:1200px) {
+   .about-us-num{
+    font-size: 22px;
+  }
+  .about-us-info{
+    font-size: 19px;
+    margin-top: 30px;
+  }
 }
