@@ -5864,7 +5864,7 @@ section#about-us p {
     font-size: 1rem;
   }
   section {
-    padding: 6rem 0 7rem;
+    padding-top: 50px;
   }
   .section-title {
     font-size: 2.2rem;
@@ -7222,4 +7222,119 @@ section#about-us p {
     font-size: 19px;
     margin-top: 30px;
   }
+}
+/* CONTACTS-----------FOOTER */
+.contacts-img{
+  width: 80px;
+  height: 80px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contacts-info{
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.contacts-title{
+  font-size: 22px;
+  color: #173647;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+.contacts-item{
+  padding: 15px;
+  background: #173647;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 100%;
+  height: 100px;
+
+}
+.contacts-icon{
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+.contacts-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contacts-link{
+  color: white;
+  font-size: 16px;
+}
+.contacts-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (min-width:768px) {
+  .contacts-list{
+    flex-direction: initial;
+  }
+  .contacts-img{
+  width: 100px;
+  height: 100px;
+}
+.contacts-title{
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+}
+@media screen and (min-width: 1200px) {
+
+.contacts-title{
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+.contacts-info{
+  font-size: 20px;
+}
+.contacts-link{
+  font-size: 20px;
+  cursor: pointer;
+}
+.contacts-list{
+  width: 100%;
+}
+.contacts-images{
+  gap: 10px;
+}
+}
+.footer-section{
+  background-image: url("../img/newIcons/footer.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+}
+.location-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.location-info{
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  
+}
+.location-img{
+  width: 30px;
+  height: 30px;
 }
