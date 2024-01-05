@@ -164,7 +164,7 @@ button {
 }
 
 .first-screen {
-  background: url("../img/newIcons/hero-back.png") center center no-repeat;
+  background: url("../img/newIcons/hero-background.jpg") center center no-repeat;
   background-size: cover;
   /* box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.55) inset; */
 }
@@ -6978,6 +6978,19 @@ section#about-us p {
   background-image: url("../img/newIcons/coop-background.jpg");
   background-size: cover;
 }
+.footer-logo{
+margin-right: 30px;
+transform: rotatez(270deg);
+width: 160px;
+height: 60px;
+}
+@media screen and (min-width: 768px) {
+  .footer-logo{
+    width: 200px;
+    height: 100px;
+  }
+}
+
 .coop-list {
   display: flex;
   justify-content: center;
@@ -7059,7 +7072,7 @@ section#about-us p {
 }
 .main-card-photo {
   width: 100%;
-  height: 80px;
+  height:70%;
   border-radius: 8px;
 }
 .project-item {
@@ -7084,8 +7097,8 @@ section#about-us p {
   font-weight: 400;
 }
 .project-photo {
-  width: 100%;
-  height: 50px;
+  width:30%;
+  height: 70px;
   border-radius: 8px;
 }
 .project-list {
