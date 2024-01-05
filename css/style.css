@@ -164,9 +164,19 @@ button {
 }
 
 .first-screen {
-  background: url("../img/background-hero.jpg") center center no-repeat;
+  background: url("../img/newIcons/hero-back.png") center center no-repeat;
   background-size: cover;
-  box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.55) inset;
+  /* box-shadow: 0 0 0 9999px rgba(0, 0, 0, 0.55) inset; */
+}
+.hero-yellow{
+  font-size: 25px;
+   color: #f1e904;
+}
+@media screen and (min-width:1200px) {
+  .hero-yellow{
+    color: #f1e904; font-size: 70px;
+  }
+  
 }
 
 .first-screen .container {
@@ -6990,6 +7000,9 @@ section#about-us p {
   font-weight: 500;
   width: 150px;
   height: 110px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .coop-item {
   display: flex;
@@ -7005,6 +7018,7 @@ section#about-us p {
   .coop-item-text {
     width: 170px;
     height: 90px;
+    
   }
 }
 
@@ -7015,7 +7029,7 @@ section#about-us p {
   }
   .coop-item-text {
     width: 206px;
-    height: 75px;
+    height: 100px;
     font-size: 16px;
   }
   .coop-list {
@@ -7033,7 +7047,7 @@ section#about-us p {
 @media screen and (min-width: 1500px) {
   .coop-item-text {
     width: 300px;
-    height: 75px;
+    height: 100px;
     font-size: 18px;
     margin-bottom: 80px;
   }
@@ -7135,6 +7149,8 @@ section#about-us p {
 }
 
 .about-us-item {
+  display: flex;
+  justify-content: center;
   text-align: left;
   position: relative;
   padding: 20px;
@@ -7149,7 +7165,9 @@ section#about-us p {
 }
 .num-container {
   background-color: #173647;
-  position: absolute;
+  /* position: absolute; */
+  height: 25px;
+  margin-right: 10px;
   padding: 3px 7px;
   text-align: center;
   display: block;
@@ -7158,7 +7176,7 @@ section#about-us p {
   border-radius: 2px;
 }
 .about-us-info {
-  margin-top: 12px;
+  /* margin-top: 12px; */
   font-size: 15px;
   color: #173647;
 }
@@ -7169,13 +7187,12 @@ section#about-us p {
   align-items: center;
   flex-direction: column;
 }
-.about-us-list{
+.about-us-list {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 15px;
-  
 }
 @media screen and (min-width: 768px) {
   .about-us-list {
@@ -7183,17 +7200,17 @@ section#about-us p {
     justify-content: space-between; /* Change to space-between to leave space between cards */
     align-items: stretch; /* Maintain equal height for all cards */
     flex-wrap: wrap;
-    flex-direction:inherit;
+    flex-direction: inherit;
     gap: 0px;
   }
   .about-us-item {
     width: calc(50% - 15px); /* 50% width with a margin of 15px between cards */
     margin-top: 20px;
-    gap: 30px;
+    /* gap: 30px; */
     padding: 20px;
     box-sizing: border-box; /* Include padding and border in the width calculation */
   }
-  
+
   .bottom-dash {
     border-bottom: 0;
   }
@@ -7206,48 +7223,46 @@ section#about-us p {
   .about-us-section {
     margin-top: 100px;
   }
-  .about-us-num{
+  .about-us-num {
     font-size: 16px;
   }
-  .about-us-info{
+  .about-us-info {
     font-size: 16px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
   }
 }
-@media  screen and (min-width:1200px) {
-   .about-us-num{
+@media screen and (min-width: 1200px) {
+  .about-us-num {
     font-size: 22px;
   }
-  .about-us-info{
+  .about-us-info {
     font-size: 19px;
-    margin-top: 30px;
   }
 }
 /* CONTACTS-----------FOOTER */
-.contacts-img{
+.contacts-img {
   width: 80px;
   height: 80px;
 }
-.center{
+.center {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
-.contacts-info{
+.contacts-info {
   color: white;
   font-size: 16px;
   letter-spacing: 1px;
   text-align: center;
 }
-.contacts-title{
+.contacts-title {
   font-size: 22px;
   color: #173647;
   margin-top: 20px;
   margin-bottom: 30px;
-
 }
-.contacts-item{
+.contacts-item {
   padding: 15px;
   background: #173647;
   display: flex;
@@ -7257,63 +7272,64 @@ section#about-us p {
   border-radius: 5px;
   width: 100%;
   height: 100px;
-
 }
-.contacts-icon{
+.contacts-icon {
   width: 30px;
   height: 30px;
   margin-bottom: 10px;
 }
-.contacts-images{
+.contacts-images {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.contacts-link{
+.contacts-link {
   color: white;
   font-size: 16px;
 }
-.contacts-list{
+.contacts-list {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 30px;
 }
-@media screen and (min-width:768px) {
-  .contacts-list{
+@media screen and (min-width: 768px) {
+  .contacts-list {
     flex-direction: initial;
   }
-  .contacts-img{
-  width: 100px;
-  height: 100px;
-}
-.contacts-title{
-  font-size: 32px;
-  margin-bottom: 50px;
-}
+  .contacts-img {
+    width: 100px;
+    height: 100px;
+  }
+  .contacts-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
 }
 @media screen and (min-width: 1200px) {
-
-.contacts-title{
-  font-size: 32px;
-  margin-bottom: 50px;
+  .contacts-title {
+    font-size: 32px;
+    margin-bottom: 50px;
+  }
+  .contacts-info {
+    font-size: 20px;
+  }
+  .contacts-link {
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .contacts-list {
+    width: 100%;
+  }
+  .contacts-images {
+    gap: 10px;
+  }
+  .num-container {
+    height: 30px;
+  }
 }
-.contacts-info{
-  font-size: 20px;
-}
-.contacts-link{
-  font-size: 20px;
-  cursor: pointer;
-}
-.contacts-list{
-  width: 100%;
-}
-.contacts-images{
-  gap: 10px;
-}
-}
-.footer-section{
+.footer-section {
   background-image: url("../img/newIcons/footer.jpg");
   background-size: cover;
   display: flex;
@@ -7322,19 +7338,18 @@ section#about-us p {
   flex-direction: column;
   padding: 50px;
 }
-.location-container{
+.location-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
 }
-.location-info{
+.location-info {
   color: white;
   font-size: 16px;
   font-weight: 700;
-  
 }
-.location-img{
+.location-img {
   width: 30px;
   height: 30px;
 }
