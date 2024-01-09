@@ -7070,18 +7070,6 @@ height: 60px;
   background-color: #e8ecec;
   border-radius: 10px;
 }
-.main-card-photo {
-  width: 100%;
-  height:70%;
-  border-radius: 8px;
-}
-.project-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  width: 100%;
-}
 .project-card {
   display: flex;
   justify-content: center;
@@ -7090,21 +7078,7 @@ height: 60px;
   width: 200px;
 }
 
-.project-description {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 400;
-}
-.project-photo {
-  width:30%;
-  height: 70px;
-  border-radius: 8px;
-}
-.project-list {
-  margin-top: 20px;
-  width: 100%;
-}
+
 .done-projects-title {
   font-size: 18px;
   color: #173647;
