@@ -689,9 +689,7 @@ button {
   align-items: center;
 }
 
-.first-screen-content-adv__item:first-child {
-  /* width: 23%; */
-}
+
 
 .first-screen-content-adv__item p {
   color: #ffffff;
@@ -791,10 +789,7 @@ button {
   text-transform: uppercase;
 }
 
-.btn:hover {
-  /*-webkit-box-shadow: 0 0rem 1rem #e2eb4e, inset 0 4px 0 #fbcd4b;*/
-  /*box-shadow: 0 0rem 2rem #e2eb4e, inset 0 4px 0 #cd8f38;*/
-}
+
 
 .btn:after {
   margin-left: -30px;
